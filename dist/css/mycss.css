@@ -1,0 +1,2310 @@
+                                p#currentTime {
+                                    font-size: 15px;
+                                    width: 112px;
+                                    color: #9fb0b9;
+                                }
+                                
+                                .currentDate {
+                                    font-size: 30px;
+                                    border: 2px solid black;
+                                    padding-left: 11px;
+                                }
+                                
+                                .main-header.navbar.navbar-expand.navbar-white.navbar-light {
+                                    padding: 2px;
+                                    margin-top: 0px;
+                                    line-height: 16px;
+                                }
+                                
+                                p#currentdate {
+                                    margin: -11px;
+                                    font-size: 10px;
+                                    padding-left: 9px;
+                                }
+                                
+                                img.masjidpic {
+                                    padding: 0px;
+                                    margin-top: 0px;
+                                    padding-left: 1px;
+                                    height: 43px;
+                                }
+                                
+                                a.nav-link.pb-3 {
+                                    display: flex;
+                                }
+                                
+                                .dubai {
+                                    font-size: 10px;
+                                    margin-top: -12px;
+                                }
+                                
+                                p.masjid {
+                                    margin-top: 0px;
+                                    font-size: 11px;
+                                    width: 70px;
+                                    font-weight: 800px;
+                                }
+                                
+                                .temp {
+                                    color: BLACK;
+                                    FONT-WEIGHT: bold;
+                                    font-size: 16px;
+                                    width: 70px;
+                                }
+                                
+                                input.form-control.form-control-navbar {
+                                    margin-left: 173px;
+                                    width: 280px;
+                                    height: 34px;
+                                    border-radius: 200px;
+                                    -webkit-border-radius: 200px;
+                                    -moz-border-radius: 200px;
+                                    -ms-border-radius: 200px;
+                                    -o-border-radius: 200px;
+                                }
+                                
+                                .main-header .nav-link {
+                                    height: 3.5rem;
+                                    position: inherit;
+                                }
+                                
+                                .quate {
+                                    height: 35px;
+                                }
+                                
+                                img.message {
+                                    height: -webkit-fill-available;
+                                    margin: 0px;
+                                    margin-right: -15px;
+                                }
+                                
+                                element.style {
+                                    width: auto;
+                                    height: 44px;
+                                }
+                                
+                                .arabic {
+                                    font-weight: 400;
+                                    background: #e9c18c;
+                                    border: none;
+                                    margin-top: 7px;
+                                    width: 94px;
+                                    color: white;
+                                    font-size: 13px;
+                                    margin-right: 34px;
+                                    -webkit-border-radius: 9px;
+                                    -moz-border-radius: 9px;
+                                    -ms-border-radius: 9px;
+                                    -o-border-radius: 9px;
+                                    border-radius: 9px;
+                                    height: 31px;
+                                }
+                                
+                                .mySlides {
+                                    border-radius: 25px;
+                                    height: 330px;
+                                    width: 100%;
+                                    margin: 16px 0px 0px 24px;
+                                    object-fit: cover;
+                                    -webkit-border-radius: 25px;
+                                    -moz-border-radius: 25px;
+                                    -ms-border-radius: 25px;
+                                    -o-border-radius: 25px;
+                                }
+                                
+                                .Dashboard-word {
+                                    display: contents;
+                                }
+                                
+                                .welcome {
+                                    font-size: 18px;
+                                    margin-right: 70px;
+                                }
+                                
+                                .user {
+                                    font-size: 14px;
+                                }
+                                
+                                .welcome2 {
+                                    font-size: 20px;
+                                    margin-right: 70px;
+                                    font-weight: bold;
+                                    margin-left: 43px;
+                                }
+                                
+                                .user2 {
+                                    font-size: 14px;
+                                }
+                                
+                                .welcome3 {
+                                    font-size: 20px;
+                                    margin-right: 70px;
+                                    font-weight: bold;
+                                    margin-left: 43px;
+                                }
+                                
+                                .user3 {
+                                    font-size: 14px;
+                                    float: left;
+                                    margin-top: 5px;
+                                }
+                                
+                                li.nav-item.d-none.d-sm-inline-block.bord {
+                                    border-left: 1px solid rgb(226, 223, 223);
+                                    margin-left: 15px;
+                                    border-left-style: dotted;
+                                }
+                                
+                                .input-group-append {
+                                    border-top-right-radius: 25px;
+                                    border-bottom-right-radius: 25px;
+                                    margin-left: 10px;
+                                }
+                                
+                                button.btn.btn-navbar {
+                                    border-top-right-radius: 25px !important;
+                                    border-bottom-right-radius: 25px !important;
+                                }
+                                
+                                .form-control .form-control-navbar ::placeholder {
+                                    color: gray;
+                                    padding-left: 28px;
+                                }
+                                
+                                input.form-control.form-control-navbar {
+                                    margin-left: 243px;
+                                    width: 240px;
+                                    height: 34px;
+                                    border-radius: 25px;
+                                    -webkit-border-radius: 25px;
+                                    -moz-border-radius: 25px;
+                                    -ms-border-radius: 25px;
+                                    -o-border-radius: 25px;
+                                }
+                                
+                                .noti {
+                                    padding-top: 21px;
+                                    padding-left: 12px;
+                                    margin-left: 12px;
+                                }
+                                
+                                a.nav-link.noti {
+                                    border: 2px solid white;
+                                    height: 35px;
+                                    width: 50px;
+                                    padding: 5px;
+                                    border-radius: 45%;
+                                    margin-top: 14px;
+                                    background-color: #e9c18c;
+                                }
+                                
+                                i.fas.fa-search {
+                                    color: #c3bdbd;
+                                }
+                                
+                                a.nav-link.noti {
+                                    border: 2px solid white;
+                                    height: auto;
+                                    width: auto;
+                                    padding: 0;
+                                    border-radius: 50%;
+                                    margin-top: 18px;
+                                    background-color: #e9c18c;
+                                }
+                                
+                                .fa-quote-right:before {
+                                    content: "\f10e";
+                                    color: white;
+                                }
+                                
+                                span.welcome {
+                                    color: black;
+                                    display: inline-block;
+                                    margin-top: 13px;
+                                }
+                                
+                                img.profile-pic {
+                                    width: 85px;
+                                    margin-left: 10px;
+                                    margin-bottom: 21px;
+                                }
+                                
+                                span.welcome2 {
+                                    display: inline-block;
+                                    text-align: -webkit-auto;
+                                    opacity: 0.6;
+                                    font-size: 22px;
+                                    margin-top: 5px;
+                                }
+                                
+                                button.btn2 {
+                                    background-color: #e9c18c;
+                                    padding: 9px;
+                                    width: 206px;
+                                    border-radius: 14px;
+                                    font-size: 21px;
+                                    color: white;
+                                    font-weight: 900;
+                                    border: none;
+                                    padding-top: 14px;
+                                }
+                                
+                                .col-sm-4 {
+                                    margin-top: 25px;
+                                }
+                                
+                                i.fa.fa-quote-right {
+                                    font-weight: 800px;
+                                    font-size: 13px;
+                                }
+                                
+                                span.welc {
+                                    display: inline-block;
+                                    text-align: -webkit-auto;
+                                    opacity: 0.6;
+                                    font-size: 22.5px;
+                                    margin-top: 5px;
+                                }
+                                
+                                .card {
+                                    height: 415px;
+                                    font-weight: 600;
+                                    border-radius: 20px;
+                                    -webkit-border-radius: 20px;
+                                    -moz-border-radius: 20px;
+                                    -ms-border-radius: 20px;
+                                    -o-border-radius: 20px;
+                                }
+                                
+                                a.view {
+                                    color: white;
+                                    opacity: 0.7;
+                                    text-decoration: underline;
+                                    font-size: 13px;
+                                }
+                                
+                                .Day {
+                                    font-size: 16px;
+                                }
+                                
+                                p.Date {
+                                    font-size: 15px;
+                                }
+                                
+                                h3.News-header {
+                                    margin-top: 40px;
+                                    font-size: 26px;
+                                }
+                                
+                                p.News-body {
+                                    margin-top: 22px;
+                                    font-size: 14px;
+                                }
+                                
+                                .announce {
+                                    width: 420px;
+                                    height: 400px;
+                                }
+                                
+                                .caland {
+                                    width: 820px;
+                                    height: 380px;
+                                    margin-left: -70px;
+                                    color: black;
+                                    background-color: white;
+                                }
+                                
+                                section.col-lg-7.connectedSortable.ui-sortable {
+                                    padding-left: 0px;
+                                }
+                                
+                                a.view2 {
+                                    color: black;
+                                    opacity: 0.7;
+                                    font-size: 14px;
+                                    text-decoration: underline;
+                                }
+                                
+                                .card-body1 {
+                                    width: 370px;
+                                    float: left;
+                                }
+                                
+                                li.body-items {
+                                    list-style-type: none;
+                                }
+                                
+                                h3.heading {
+                                    font-size: 18px;
+                                    font-weight: 900;
+                                }
+                                
+                                .date1 {
+                                    color: orange;
+                                    font-size: 10px;
+                                }
+                                
+                                .cont {
+                                    margin-left: -30px;
+                                }
+                                
+                                span.welcome3 {
+                                    opacity: 0.7;
+                                }
+                                
+                                .read {
+                                    margin-top: 35px;
+                                }
+                                
+                                .body-items {
+                                    border-bottom: 1px solid rgb(228, 221, 221);
+                                }
+                                
+                                .third {
+                                    border-style: none;
+                                }
+                                
+                                .date {
+                                    color: #dab36b;
+                                    font-size: 12px;
+                                }
+                                
+                                h3.heading {
+                                    font-size: 16px;
+                                    font-weight: 500;
+                                    color: black;
+                                }
+                                
+                                p.para {
+                                    font-size: 14px;
+                                    font-weight: 400;
+                                }
+                                
+                                span.col.ml-2.mr-1 {
+                                    opacity: 0.6;
+                                    font-size: 13px;
+                                    font-weight: 400;
+                                }
+                                
+                                h3.card-title {
+                                    color: #b9ceda;
+                                }
+                                
+                                .card.okr.direct-chat.direct-chat-primary {
+                                    background-color: white;
+                                }
+                                
+                                .date5 {
+                                    color: #dabd96;
+                                    font-size: 15px;
+                                }
+                                
+                                .energy {
+                                    border-bottom: none;
+                                }
+                                
+                                .percent {
+                                    color: green;
+                                }
+                                
+                                span.col.ml-2.mr-1.percent {
+                                    font-size: 17px;
+                                    font-weight: 700;
+                                }
+                                
+                                span.col.ml-2.mr-1.percent1 {
+                                    font-size: 17px;
+                                    color: red;
+                                    font-weight: 700;
+                                }
+                                
+                                .date4 {
+                                    color: #d8d5d1;
+                                    font-size: 12px;
+                                }
+                                
+                                .date6 {
+                                    color: black;
+                                    font-weight: 600;
+                                }
+                                
+                                .timing {
+                                    color: black;
+                                }
+                                
+                                .checkin {
+                                    color: #f6dbb7;
+                                }
+                                
+                                .nobd {
+                                    border-bottom: none;
+                                    display: inline-block;
+                                }
+                                
+                                .body-para2 {
+                                    display: inline-block;
+                                }
+                                
+                                li.checkin.mb-2 {
+                                    list-style-type: none;
+                                    font-size: 14px;
+                                }
+                                
+                                li.timing {
+                                    list-style-type: none;
+                                    padding: 0px 0px 10px 5px;
+                                    font-size: 14px;
+                                }
+                                
+                                ul.listing {
+                                    margin: 0px 0px 0px -42px;
+                                }
+                                
+                                h3.card-title {
+                                    color: #b9ceda;
+                                    font-weight: 600;
+                                }
+                                
+                                .card.okr.direct-chat.direct-chat-primary {
+                                    height: 350px;
+                                }
+                                
+                                h3.card-title {
+                                    color: #b9ceda;
+                                    font-weight: 600;
+                                    opacity: 1;
+                                }
+                                
+                                i.far.fa-newspaper {
+                                    font-size: 30px;
+                                    padding: 10px;
+                                    border: 2px solid white;
+                                    border-radius: 15%;
+                                    background-color: white;
+                                    color: #7293b7;
+                                    -webkit-border-radius: 15%;
+                                    -moz-border-radius: 15%;
+                                    -ms-border-radius: 15%;
+                                    -o-border-radius: 15%;
+                                }
+                                
+                                i.fas.fa-poll {
+                                    font-size: 30px;
+                                    border: 2px solid white;
+                                    border-radius: 15%;
+                                    padding: 11px;
+                                    background-color: white;
+                                    color: #7293b7;
+                                    -webkit-border-radius: 15%;
+                                    -moz-border-radius: 15%;
+                                    -ms-border-radius: 15%;
+                                    -o-border-radius: 15%;
+                                }
+                                
+                                i.fas.fa-inbox {
+                                    font-size: 30px;
+                                    border: 2px solid white;
+                                    border-radius: 15%;
+                                    padding: 10px;
+                                    background-color: white;
+                                    color: #7293b7;
+                                    -webkit-border-radius: 15%;
+                                    -moz-border-radius: 15%;
+                                    -ms-border-radius: 15%;
+                                    -o-border-radius: 15%;
+                                }
+                                
+                                i.fas.fa-calendar-week {
+                                    font-size: 30px;
+                                    border: 2px solid white;
+                                    border-radius: 15%;
+                                    padding: 10px;
+                                    background-color: white;
+                                    color: #7293b7;
+                                    -webkit-border-radius: 15%;
+                                    -moz-border-radius: 15%;
+                                    -ms-border-radius: 15%;
+                                    -o-border-radius: 15%;
+                                }
+                                
+                                i.fab.fa-hire-a-helper {
+                                    font-size: 30px;
+                                    border: 2px solid white;
+                                    border-radius: 15%;
+                                    padding: 10px;
+                                    background-color: white;
+                                    color: #7293b7;
+                                    -webkit-border-radius: 15%;
+                                    -moz-border-radius: 15%;
+                                    -ms-border-radius: 15%;
+                                    -o-border-radius: 15%;
+                                }
+                                
+                                i.far.fa-envelope {
+                                    font-size: 30px;
+                                    border: 2px solid white;
+                                    border-radius: 15%;
+                                    padding: 10px;
+                                    background-color: white;
+                                    color: #7293b7;
+                                    -webkit-border-radius: 15%;
+                                    -moz-border-radius: 15%;
+                                    -ms-border-radius: 15%;
+                                    -o-border-radius: 15%;
+                                }
+                                
+                                li.icons-link {
+                                    display: inline-block;
+                                }
+                                
+                                a.icon-name {
+                                    display: block;
+                                    color: white;
+                                    text-align: center;
+                                }
+                                
+                                .slide-items {
+                                    width: 400px;
+                                    height: 380px;
+                                }
+                                
+                                .slideshow1-container {
+                                    position: relative;
+                                    margin: auto;
+                                    cursor: default;
+                                    height: 200px;
+                                    width: 700px;
+                                }
+                                
+                                .prev,
+                                .next {
+                                    text-align: right;
+                                }
+                                
+                                a.nav-link.noti {
+                                    padding: 5px;
+                                    border-radius: 50%;
+                                    margin-top: 14px;
+                                    -webkit-border-radius: 50%;
+                                    -moz-border-radius: 50%;
+                                    -ms-border-radius: 50%;
+                                    -o-border-radius: 50%;
+                                }
+                                
+                                * {
+                                    box-sizing: border-box
+                                }
+                                /* Slideshow container */
+                                /* Hide the images by default */
+                                /* Next & previous buttons */
+                                
+                                .prev,
+                                .next {
+                                    cursor: pointer;
+                                    position: absolute;
+                                    top: 50%;
+                                    width: 20px;
+                                    margin-top: -22px;
+                                    padding: 16px;
+                                    color: white;
+                                    font-weight: bold;
+                                    font-size: 18px;
+                                    border-radius: 0 3px 3px 0;
+                                }
+                                /* 
+  Position the "next button" to the right */
+                                
+                                .next {
+                                    right: 0;
+                                    border-radius: 3px 0 0 3px;
+                                }
+                                /* On hover, add 
+  a black background color with a little bit see-through */
+                                
+                                .prev:hover,
+                                .next:hover {
+                                    background-color: rgba(0, 0, 0, 0.8);
+                                }
+                                /* Caption text */
+                                
+                                .text {
+                                    color: #f2f2f2;
+                                    font-size: 15px;
+                                    padding: 8px 12px;
+                                    position: absolute;
+                                    bottom: 8px;
+                                    width: 100%;
+                                    text-align: center;
+                                }
+                                /* Number text (1/3 
+  etc) */
+                                
+                                .numbertext {
+                                    color: #f2f2f2;
+                                    font-size: 12px;
+                                    padding: 8px 12px;
+                                    position: absolute;
+                                    top: 0;
+                                }
+                                /* The dots/bullets/indicators */
+                                
+                                .active,
+                                .dot:hover {
+                                    background-color: #717171;
+                                }
+                                /* 
+  Fading animation */
+                                
+                                .fade {
+                                    -webkit-animation-name: fade;
+                                    -webkit-animation-duration: 1.5s;
+                                    animation-name: fade;
+                                    animation-duration: 1.5s;
+                                }
+                                
+                                @-webkit-keyframes fade {
+                                    from {
+                                        opacity: .4
+                                    }
+                                    to {
+                                        opacity: 1
+                                    }
+                                }
+                                
+                                @keyframes fade {
+                                    from {
+                                        opacity: .4
+                                    }
+                                    to {
+                                        opacity: 1
+                                    }
+                                }
+                                
+                                img.image-slide {
+                                    vertical-align: middle;
+                                    border-style: none;
+                                    object-fit: cover;
+                                    width: 700px;
+                                    height: 260px;
+                                    border-radius: 20px;
+                                    -webkit-border-radius: 20px;
+                                    -moz-border-radius: 20px;
+                                    -ms-border-radius: 20px;
+                                    -o-border-radius: 20px;
+                                }
+                                
+                                a.next {
+                                    color: white;
+                                }
+                                
+                                a.prev {
+                                    color: white;
+                                }
+                                
+                                .card-header.border-0.ui-sortable-handle {
+                                    border-bottom: 1px solid rgb(233, 232, 232) !important;
+                                    margin-bottom: 15px;
+                                    height: 51px;
+                                }
+                                
+                                .p-text {
+                                    color: black;
+                                    font-size: 15px;
+                                }
+                                
+                                .docx-img {
+                                    border: 1px solid;
+                                    background-color: #dabd96;
+                                    border-radius: 7px;
+                                    border: none;
+                                }
+                                
+                                img.doc-img {
+                                    height: 18px;
+                                }
+                                
+                                a.view4 {
+                                    color: black;
+                                    opacity: 0.7;
+                                    font-size: 14px;
+                                    text-decoration: underline;
+                                }
+                                
+                                .fas.fa-download {
+                                    color: #b8c2c7;
+                                }
+                                
+                                p.img-text1 {
+                                    color: #e4d2ba;
+                                    font-size: 14px;
+                                    font-weight: 600;
+                                }
+                                
+                                a.view7 {
+                                    color: #e1dede;
+                                    font-size: 10px;
+                                    text-decoration: underline;
+                                }
+                                
+                                .col.employee-text {
+                                    color: black;
+                                    font-weight: 400;
+                                    font-size: 14px;
+                                }
+                                
+                                .employee-images {
+                                    vertical-align: middle;
+                                    border-style: none;
+                                    height: 70px;
+                                    width: 350px;
+                                    border-radius: 15px;
+                                    -webkit-border-radius: 15px;
+                                    -moz-border-radius: 15px;
+                                    -ms-border-radius: 15px;
+                                    -o-border-radius: 15px;
+                                }
+                                
+                                .last-li {
+                                    border-bottom-style: none;
+                                }
+                                
+                                .new-img {
+                                    vertical-align: middle;
+                                    border-style: none;
+                                    width: 137px;
+                                    margin-left: 145px;
+                                }
+                                
+                                .text-p {
+                                    margin-left: 144px;
+                                }
+                                
+                                h3.text-p2 {
+                                    font-weight: 700;
+                                    color: black;
+                                }
+                                
+                                .text-2 {
+                                    color: black;
+                                    margin-left: 157px;
+                                }
+                                
+                                .text-3 {
+                                    color: rgb(197, 197, 197);
+                                    margin-left: 182px;
+                                    text-decoration: underline;
+                                    font-size: 12px;
+                                }
+                                
+                                .text-p3 {
+                                    font-size: 14px;
+                                    font-weight: 600;
+                                }
+                                
+                                .Photos-Videos {
+                                    margin: 0px 30px 0px 19px;
+                                }
+                                
+                                button.btn-photots {
+                                    margin-right: 30px;
+                                    BORDER: none;
+                                    background-color: white;
+                                    color: #eba82d;
+                                    opacity: 0.6;
+                                    transition: 0.3s;
+                                    -webkit-transition: 0.5s;
+                                    -moz-transition: 0.3s;
+                                    -ms-transition: 0.3s;
+                                    -o-transition: 0.3s;
+                                }
+                                
+                                button.btn-video {
+                                    margin-right: 30px;
+                                    BORDER: none;
+                                    background-color: white;
+                                    color: #eba82d;
+                                    opacity: 0.6;
+                                    transition: 0.3s;
+                                    -webkit-transition: 0.5s;
+                                    -moz-transition: 0.3s;
+                                    -ms-transition: 0.3s;
+                                    -o-transition: 0.3s;
+                                }
+                                
+                                button.btn-photots:hover {
+                                    opacity: 1;
+                                    border-bottom: 1px solid #ec9e0c;
+                                }
+                                
+                                button.btn-video:hover {
+                                    opacity: 1;
+                                    border-bottom: 1px solid #ec9e0c;
+                                }
+                                /* .card.okr.direct-chat.direct-chat-primary {
+        height: 532px;
+    } */
+                                
+                                .sub-img {
+                                    width: 120px;
+                                    object-fit: cover;
+                                    height: 112px;
+                                    border-radius: 10px;
+                                }
+                                
+                                .main-img {
+                                    width: 380px;
+                                    height: 240px;
+                                    border-radius: 10px;
+                                    -webkit-border-radius: 10px;
+                                    -moz-border-radius: 10px;
+                                    -ms-border-radius: 10px;
+                                    -o-border-radius: 10px;
+                                }
+                                
+                                .active,
+                                .dot:hover {
+                                    background-color: #ffffff;
+                                }
+                                
+                                .nature-text {
+                                    text-align: left;
+                                    color: black;
+                                    margin-left: 33px;
+                                    padding-top: 13px;
+                                }
+                                
+                                img.doc-img2 {
+                                    height: 40px;
+                                    width: 40px;
+                                    border-radius: 50%;
+                                    -webkit-border-radius: 50%;
+                                    -moz-border-radius: 50%;
+                                    -ms-border-radius: 50%;
+                                    -o-border-radius: 50%;
+                                }
+                                
+                                img.doc-img3 {
+                                    width: 55px;
+                                    height: 40px;
+                                }
+                                
+                                .docx-img3 {
+                                    margin-right: 2px;
+                                    padding-left: 1px;
+                                }
+                                
+                                span.dept {
+                                    font-size: 14px;
+                                    color: gainsboro;
+                                }
+                                
+                                p.emp-text {
+                                    margin-bottom: 0px;
+                                }
+                                
+                                .container.footer-sett {
+                                    margin-left: 0px;
+                                }
+                                
+                                ul.foot-ul {
+                                    list-style-type: none;
+                                    padding-left: 0px;
+                                }
+                                
+                                li.foot-li {
+                                    display: inline;
+                                    margin: 13px;
+                                    font-size: 14px;
+                                    color: black;
+                                    border-left: 1px solid rgb(212, 212, 212);
+                                    padding-left: 15px;
+                                }
+                                
+                                span.foot-span {
+                                    margin-left: 33px;
+                                    font-size: 13px;
+                                    color: black;
+                                }
+                                
+                                .foot-right {
+                                    margin: 0px 12px 0px 12px;
+                                }
+                                
+                                .foot-icon {
+                                    margin-right: 8px;
+                                    font-size: 20px;
+                                    font-weight: 600;
+                                }
+                                
+                                p.announ-text {
+                                    color: rgb(255, 255, 255);
+                                    font-weight: 600;
+                                    font-size: 14px;
+                                }
+                                
+                                p.announ-text2 {
+                                    color: rgb(251, 251, 251);
+                                    font-size: 21px;
+                                    font-weight: 600;
+                                }
+                                
+                                .col.ml-5.announ-day {
+                                    padding-bottom: 0px;
+                                    margin-bottom: 0px;
+                                }
+                                
+                                h4.announ-text3 {
+                                    color: rgb(255, 254, 254);
+                                    font-size: 31px;
+                                    font-weight: 600;
+                                }
+                                
+                                p.announ-textpara {
+                                    font-size: 13px;
+                                    color: rgb(255, 255, 255);
+                                }
+                                
+                                .announce {
+                                    width: 500px;
+                                }
+                                
+                                img.brand-image.img-circle.elevation-3 {
+                                    opacity: 1;
+                                    border-radius: 0px;
+                                    box-shadow: none !important;
+                                }
+                                
+                                img.brand-image.img-circle.elevation-3 {
+                                    margin-left: 30px;
+                                    width: 180px;
+                                }
+                                
+                                .row.ml-2.mr-2.back-color {
+                                    background-color: #e4ecef;
+                                    border-radius: 15px;
+                                }
+                                
+                                .back-color {
+                                    background-color: #e4ecef;
+                                    border-radius: 15px;
+                                }
+                                
+                                p.nav-text-set {
+                                    color: #000000;
+                                    font-weight: 500;
+                                }
+                                
+                                p.nav-text-set2 {
+                                    color: #96acb9;
+                                    font-weight: 500;
+                                }
+                                
+                                button.side-btn {
+                                    color: white;
+                                    background-color: #e8bf8c;
+                                    font-size: 15px;
+                                    width: 205px;
+                                    padding: 15px;
+                                    border: none;
+                                    border-radius: 10px;
+                                }
+                                
+                                i.fas.fa-plus {
+                                    padding-left: 19px;
+                                }
+                                
+                                button.side-btn2 {
+                                    background: #96a4b0;
+                                    color: white;
+                                    border: none;
+                                    border-radius: 12px;
+                                    height: 45px;
+                                    width: 165px;
+                                }
+                                
+                                .nav-tabs {
+                                    border-bottom: none;
+                                }
+                                
+                                a.nav-link {
+                                    color: #d8ad65;
+                                    opacity: 0.7;
+                                    font-size: 15px;
+                                }
+                                
+                                a.nav-link.active2 {
+                                    border-bottom: 1px solid;
+                                }
+                                
+                                label:not(.form-check-label):not(.custom-file-label) {
+                                    font-weight: 400;
+                                }
+                                
+                                label.lab {
+                                    margin-left: 7px;
+                                }
+                                /* .caland-body1 {
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+    
+    #calendar {
+        width: 80%;
+        position: absolute;
+    } */
+                                
+                                .card-body {
+                                    padding-left: 0px;
+                                }
+                                
+                                span.col.ml-2.mr-1 {
+                                    opacity: 0.6;
+                                    font-size: 13px;
+                                    padding-left: 37px;
+                                    font-weight: 400;
+                                }
+                                /* Customize website's scrollbar like Mac OS
+Not supports in Firefox and IE */
+                                /* total width */
+                                
+                                .scrollbar::-webkit-scrollbar {
+                                    background-color: none;
+                                    width: auto;
+                                }
+                                /* background of the scrollbar except button or resizer */
+                                
+                                .scrollbar::-webkit-scrollbar-track {
+                                    background-color: none;
+                                }
+                                
+                                .scrollbar::-webkit-scrollbar-track:hover {
+                                    background-color: none;
+                                }
+                                /* scrollbar itself */
+                                
+                                .scrollbar::-webkit-scrollbar-thumb {
+                                    background-color: none;
+                                    border-radius: 16px;
+                                    border: 2px solid white;
+                                    -webkit-border-radius: 16px;
+                                    -moz-border-radius: 16px;
+                                    -ms-border-radius: 16px;
+                                    -o-border-radius: 16px;
+                                }
+                                
+                                .main-sidebar.sidebar-dark-primary.elevation-4.scrollbar {
+                                    width: 260px;
+                                }
+                                
+                                .scrollbar::-webkit-scrollbar-thumb:hover {
+                                    background-color: none;
+                                    border-radius: 16px;
+                                    border: 2px solid white;
+                                    -webkit-border-radius: 16px;
+                                    -moz-border-radius: 16px;
+                                    -ms-border-radius: 16px;
+                                    -o-border-radius: 16px;
+                                }
+                                /* set button(top and bottom of the scrollbar) */
+                                
+                                .scrollbar::-webkit-scrollbar-button {
+                                    display: none
+                                }
+                                /* div box */
+                                
+                                .scrollbar {
+                                    height: auto;
+                                    width: auto;
+                                    min-width: 150px;
+                                    background: none;
+                                    overflow-y: auto;
+                                }
+                                
+                                .overflow {
+                                    min-height: auto
+                                }
+                                
+                                button#dot {
+                                    width: 380px;
+                                    padding-left: 0px;
+                                    background-color: #7ba5bb;
+                                    border: none;
+                                    color: white;
+                                    font-weight: 800;
+                                    font-size: 16px;
+                                }
+                                
+                                button#dot2 {
+                                    font-weight: 700;
+                                    border: none;
+                                    background: #7ba5bb;
+                                    color: white;
+                                }
+                                
+                                .bootstrap-datetimepicker-widget table {
+                                    width: 390px;
+                                    margin: 0;
+                                    height: 315px;
+                                }
+                                
+                                th.picker-switch {
+                                    font-size: 20px;
+                                    border: none;
+                                    font-weight: 600;
+                                    padding-bottom: 12px;
+                                }
+                                
+                                .table thead th {
+                                    vertical-align: bottom;
+                                    border-bottom: none;
+                                }
+                                
+                                .bootstrap-datetimepicker-widget table td.active,
+                                .bootstrap-datetimepicker-widget table td.active:hover {
+                                    background-color: #757474;
+                                    color: #fff;
+                                    text-shadow: 0 -1px 0 rgb(0 0 0 / 25%);
+                                }
+                                
+                                iframe {
+                                    border-radius: 20px;
+                                }
+                                
+                                a.next.btn-picpre {
+                                    color: black;
+                                }
+                                
+                                a.nav-link.right {
+                                    background-color: #d4ac76;
+                                }
+                                
+                                a.nav-link.right {
+                                    background-color: #f0d4af;
+                                    /* margin: 3px 0px 1px 0px; */
+                                    height: 30px;
+                                    width: 30px;
+                                    margin-top: 14px;
+                                    margin-right: 0px;
+                                    padding-right: 22px !important;
+                                    margin-left: 8px;
+                                    opacity: 1;
+                                    padding-left: 9px !important;
+                                    padding-top: 7px;
+                                    border-radius: 50%;
+                                }
+                                
+                                a.prev.btn-picpre {
+                                    color: black;
+                                }
+                                
+                                ul#ul3 {
+                                    display: none;
+                                }
+                                
+                                ul#ul4 {
+                                    display: none;
+                                }
+                                
+                                .slider-class {
+                                    width: 100%;
+                                }
+                                
+                                .content-wrapper {
+                                    width: 1333px;
+                                }
+                                
+                                @media only screen and (max-width: 1600px) and (min-width: 1201px) {
+                                    /*Tablets [601px -> 1200px]*/
+                                    .wrapper {
+                                        overflow-x: hidden;
+                                    }
+                                    .main-footer {
+                                        background: #fff;
+                                        border-top: 1px solid #dee2e6;
+                                        color: #869099;
+                                        padding: 8px 0px 2px 0px;
+                                    }
+                                    .col-sm-4 {
+                                        margin-top: 0px;
+                                    }
+                                    iframe.main-img1 {
+                                        width: 380px;
+                                        height: 254px;
+                                    }
+                                    iframe.sub-img1 {
+                                        width: 130px;
+                                        height: 117px;
+                                    }
+                                    .mySlides {
+                                        border-radius: 25px;
+                                        height: 330px;
+                                        width: 1253px;
+                                        margin: 16px 0px 0px 24px;
+                                        object-fit: cover;
+                                        -webkit-border-radius: 25px;
+                                        -moz-border-radius: 25px;
+                                        -ms-border-radius: 25px;
+                                        -o-border-radius: 25px;
+                                    }
+                                    li.icons-link {
+                                        margin-right: 40px !important;
+                                    }
+                                    .content-wrapper {
+                                        width: 1333px;
+                                        min-height: 210px;
+                                    }
+                                    form.form-inline.ml-3 {
+                                        margin-left: 0px;
+                                    }
+                                    ul.navbar-nav.ml-auto {
+                                        margin-left: 17px !important;
+                                    }
+                                    button.btn2 {
+                                        background-color: #e9c18c;
+                                        padding: 9px;
+                                        width: 198px;
+                                        border-radius: 14px;
+                                        font-size: 21px;
+                                        color: white;
+                                        font-weight: 900;
+                                        border: none;
+                                        padding-top: 14px;
+                                        -webkit-border-radius: 14px;
+                                        -moz-border-radius: 14px;
+                                        -ms-border-radius: 14px;
+                                        -o-border-radius: 14px;
+                                    }
+                                    html {
+                                        width: 1582px;
+                                    }
+                                    .scrollbar {
+                                        height: auto;
+                                        width: auto;
+                                        min-width: 150px;
+                                        background: none;
+                                        overflow-y: auto;
+                                        overflow-x: hidden;
+                                    }
+                                }
+                                
+                                @media only screen and (max-width: 1200px) and (min-width: 993px) {
+                                    /*Tablets [601px -> 1200px]*/
+                                    .main-footer {
+                                        background: #fff;
+                                        border-top: 1px solid #dee2e6;
+                                        color: #869099;
+                                        padding: 8px 0px 2px 0px;
+                                    }
+                                    .col-sm-4 {
+                                        margin-top: 0px;
+                                    }
+                                    iframe.main-img1 {
+                                        width: 380px;
+                                        height: 254px;
+                                    }
+                                    iframe.sub-img1 {
+                                        width: 130px;
+                                        height: 117px;
+                                    }
+                                    .content-wrapper {
+                                        width: 1333px;
+                                    }
+                                    li.icons-link {
+                                        margin-right: 40px !important;
+                                    }
+                                    .mySlides {
+                                        border-radius: 25px;
+                                        height: 330px;
+                                        width: 1215px;
+                                        margin: 16px 0px 0px 24px;
+                                        object-fit: cover;
+                                        -webkit-border-radius: 25px;
+                                        -moz-border-radius: 25px;
+                                        -ms-border-radius: 25px;
+                                        -o-border-radius: 25px;
+                                    }
+                                    form.form-inline.ml-3 {
+                                        margin-left: 55px;
+                                    }
+                                    .scrollbar {
+                                        height: auto;
+                                        width: auto;
+                                        min-width: 150px;
+                                        background: none;
+                                        overflow-y: auto;
+                                        overflow-x: hidden;
+                                    }
+                                    html {
+                                        width: 1546px;
+                                    }
+                                }
+                                
+                                @media only screen and (max-width: 991px) and (min-width: 576px) {
+                                    /*Big smartphones [426px -> 600px]*/
+                                    .main-footer {
+                                        background: #fff;
+                                        border-top: 1px solid #dee2e6;
+                                        color: #869099;
+                                        padding: 8px 0px 2px 0px;
+                                    }
+                                    iframe.main-img1 {
+                                        width: 405px;
+                                        height: 254px;
+                                    }
+                                    iframe.sub-img1 {
+                                        width: 130px;
+                                        height: 117px;
+                                    }
+                                    .content-wrapper {
+                                        width: 1364px !important;
+                                    }
+                                    html {
+                                        width: 1340px;
+                                    }
+                                    .todo-body2 {
+                                        margin-top: 0 !important;
+                                    }
+                                    .employee-images {
+                                        vertical-align: middle;
+                                        border-style: none;
+                                        height: 70px;
+                                        width: 402px;
+                                        border-radius: 15px;
+                                        -webkit-border-radius: 15px;
+                                        -moz-border-radius: 15px;
+                                        -ms-border-radius: 15px;
+                                        -o-border-radius: 15px;
+                                    }
+                                    li.icons-link {
+                                        margin-right: 43px !important;
+                                    }
+                                    .date6 {
+                                        color: black;
+                                        font-weight: 600;
+                                        font-size: 20px;
+                                    }
+                                    li.checkin.mb-2 {
+                                        list-style-type: none;
+                                        font-size: 20px;
+                                    }
+                                    .p-text {
+                                        color: black;
+                                        font-size: 18px;
+                                    }
+                                    .col.employee-text {
+                                        color: black;
+                                        font-weight: 400;
+                                        font-size: 15px;
+                                    }
+                                    .todo-body2 {
+                                        margin-top: 30px;
+                                    }
+                                    li.timing {
+                                        list-style-type: none;
+                                        padding: 0px 0px 10px 5px;
+                                        font-size: 16px;
+                                    }
+                                    .mySlides {
+                                        border-radius: 25px;
+                                        height: 330px;
+                                        width: 1310px;
+                                        margin: 16px 0px 0px 24px;
+                                        object-fit: cover;
+                                        -webkit-border-radius: 25px;
+                                        -moz-border-radius: 25px;
+                                        -ms-border-radius: 25px;
+                                        -o-border-radius: 25px;
+                                    }
+                                    p#currentTime {
+                                        font-size: 15px;
+                                        width: 112px;
+                                        color: #7facc3;
+                                    }
+                                    a.nav-link {
+                                        color: #d8ad65;
+                                        opacity: 1;
+                                        font-size: 15px;
+                                    }
+                                    a.nav-link.right {
+                                        background-color: #e9c18c;
+                                        margin: 3px 0px 1px 0px;
+                                        height: 30px;
+                                        width: 30px;
+                                        margin-top: 14px;
+                                        margin-right: 0px;
+                                        padding-right: 22px !important;
+                                        margin-left: 8px;
+                                        opacity: 1;
+                                        padding-left: 9px !important;
+                                        padding-top: 7px;
+                                        border-radius: 50%;
+                                    }
+                                    button.btn2 {
+                                        background-color: #e9c18c;
+                                        padding: 9px;
+                                        width: 195px;
+                                        border-radius: 14px;
+                                        font-size: 21px;
+                                        color: white;
+                                        font-weight: 900;
+                                        border: none;
+                                        padding-top: 14px;
+                                    }
+                                    span.user {
+                                        color: rgb(144 141 153);
+                                    }
+                                    span.user2 {
+                                        color: rgb(114 112 123);
+                                    }
+                                    span.user3 {
+                                        color: rgb(147 144 158);
+                                    }
+                                    p.announ-text {
+                                        color: rgb(255, 255, 255);
+                                        font-weight: 600;
+                                        font-size: 25px;
+                                    }
+                                    p.announ-text2 {
+                                        color: rgb(251, 251, 251);
+                                        font-size: 25px;
+                                        font-weight: 600;
+                                    }
+                                    p.announ-textpara {
+                                        font-size: 17px;
+                                        color: rgb(255, 255, 255);
+                                    }
+                                    button#dot {
+                                        width: 380px;
+                                        padding-left: 328px;
+                                        background-color: #7ba5bb;
+                                        border: none;
+                                        color: white;
+                                        font-weight: 800;
+                                        font-size: 38px;
+                                    }
+                                    h3.card-title {
+                                        color: #94b6c9;
+                                        font-weight: 600;
+                                        opacity: 1;
+                                        font-size: 22px;
+                                    }
+                                    span.user {
+                                        color: rgb(144 141 153);
+                                        font-size: 17px;
+                                        font-weight: 900;
+                                    }
+                                    h3.card-title {
+                                        color: #94b6c9;
+                                        font-weight: 600;
+                                        opacity: 1;
+                                        font-size: 25px;
+                                    }
+                                    .date5 {
+                                        color: #dabd96;
+                                        font-size: 20px;
+                                    }
+                                    .date4 {
+                                        color: #d8d5d1;
+                                        font-size: 18px;
+                                    }
+                                    h3.heading {
+                                        font-size: 19px;
+                                        font-weight: 500;
+                                        color: black;
+                                    }
+                                    span.col.ml-2.mr-1.percent {
+                                        font-size: 19px;
+                                        font-weight: 700;
+                                    }
+                                    .container,
+                                    .container-sm {
+                                        max-width: 935px;
+                                    }
+                                    .col-sm-4 {
+                                        margin-top: 0px;
+                                    }
+                                    .card.events-card2 {
+                                        margin-left: 0px;
+                                    }
+                                    p.masjid {
+                                        margin-top: 0px;
+                                        font-size: 16px;
+                                        width: 104px;
+                                        font-weight: 800px;
+                                    }
+                                    p#currentTime {
+                                        font-size: 17px;
+                                        width: 112px;
+                                        color: #7facc3;
+                                    }
+                                    .dubai {
+                                        font-size: 14px;
+                                        margin-top: -12px;
+                                    }
+                                    .date {
+                                        color: #dab36b;
+                                        font-size: 22px;
+                                    }
+                                    h3.heading {
+                                        font-size: 21px;
+                                        font-weight: 500;
+                                        color: black;
+                                    }
+                                    p.para {
+                                        font-size: 15px;
+                                        font-weight: 400;
+                                    }
+                                    p.announ-textpara {
+                                        font-size: 19px;
+                                        color: rgb(255, 255, 255);
+                                    }
+                                    span.col.ml-2.mr-1 {
+                                        opacity: 0.7;
+                                        font-size: 15px;
+                                        padding-left: 37px;
+                                        font-weight: 400;
+                                    }
+                                    p#currentTime {
+                                        font-size: 17px;
+                                        width: 114px;
+                                        color: #7facc3;
+                                    }
+                                    .bootstrap-datetimepicker-widget table {
+                                        width: 390px;
+                                        margin-left: 126px;
+                                        height: 315px;
+                                    }
+                                    .temp {
+                                        color: BLACK;
+                                        FONT-WEIGHT: bold;
+                                        font-size: 16px;
+                                        width: 92px;
+                                    }
+                                }
+                                
+                                @media only screen and (max-width: 575px) and (min-width: 426px) {
+                                    .main-footer {
+                                        background: #fff;
+                                        border-top: 1px solid #dee2e6;
+                                        color: #869099;
+                                        padding: 8px 0px 2px 0px;
+                                    }
+                                    form.form-inline.ml-3 {
+                                        margin-left: 76px !important;
+                                    }
+                                    iframe {
+                                        border-radius: 20px;
+                                        width: 616px;
+                                        height: 207px;
+                                        margin: 0px;
+                                    }
+                                    .sidebar-content {
+                                        margin-top: 15px;
+                                    }
+                                    .employee-images {
+                                        vertical-align: middle;
+                                        border-style: none;
+                                        height: 80px;
+                                        width: 540px;
+                                        border-radius: 15px;
+                                        -webkit-border-radius: 15px;
+                                        -moz-border-radius: 15px;
+                                        -ms-border-radius: 15px;
+                                        -o-border-radius: 15px;
+                                    }
+                                    input.form-control.form-control-navbar {
+                                        width: 460px;
+                                    }
+                                    ul.navbar-nav.ml-auto {
+                                        margin-left: 328px !important;
+                                    }
+                                    .form-inline {
+                                        display: -ms-flexbox;
+                                        display: flex;
+                                        -ms-flex-flow: row wrap;
+                                        flex-flow: row wrap;
+                                        -ms-flex-align: center;
+                                        align-items: center;
+                                        margin-left: 130px !important;
+                                    }
+                                    .content-wrapper {
+                                        width: 1345px;
+                                    }
+                                    input.form-control.form-control-navbar {
+                                        margin-left: 90px;
+                                        width: 202px;
+                                        height: 34px;
+                                        border-radius: 25px;
+                                        -webkit-border-radius: 25px;
+                                        -moz-border-radius: 25px;
+                                        -ms-border-radius: 25px;
+                                        -o-border-radius: 25px;
+                                    }
+                                    .content-wrapper {
+                                        width: 733px;
+                                    }
+                                    .mySlides {
+                                        border-radius: 25px;
+                                        height: 180px;
+                                        width: 680px;
+                                        margin: 16px 0px 0px 7px !important;
+                                        object-fit: cover;
+                                        -webkit-border-radius: 25px;
+                                        -moz-border-radius: 25px;
+                                        -ms-border-radius: 25px;
+                                        -o-border-radius: 25px;
+                                    }
+                                    .col-sm-4 {
+                                        margin-top: 10px;
+                                        text-align: center;
+                                        margin-right: 0px;
+                                    }
+                                    i.fas.fa-bars {
+                                        font-size: 19px;
+                                        color: black;
+                                        opacity: 0.9;
+                                    }
+                                    form.form-inline.ml-3 {
+                                        width: 250px;
+                                    }
+                                    button.btn2 {
+                                        background-color: #e9c18c;
+                                        padding: 15px;
+                                        width: 170px;
+                                        border-radius: 14px;
+                                        font-size: 18px;
+                                        color: white;
+                                        float: left;
+                                        font-weight: 900;
+                                        margin-left: 30px !important;
+                                        border: none;
+                                        padding-top: 14px;
+                                        margin-top: 15px;
+                                        padding-left: 0px;
+                                        -webkit-border-radius: 14px;
+                                        -moz-border-radius: 14px;
+                                        -ms-border-radius: 14px;
+                                        -o-border-radius: 14px;
+                                    }
+                                    .welcome3 {
+                                        font-size: 20px;
+                                        margin-right: 0px;
+                                        font-weight: bold;
+                                        margin-left: 6px;
+                                    }
+                                    .user3 {
+                                        font-size: 14px;
+                                        float: none;
+                                        margin-top: 5px;
+                                    }
+                                    .card {
+                                        height: 415px;
+                                        font-weight: 600;
+                                        width: 680px;
+                                        border-radius: 20px;
+                                        -webkit-border-radius: 20px;
+                                        -moz-border-radius: 20px;
+                                        -ms-border-radius: 20px;
+                                        -o-border-radius: 20px;
+                                    }
+                                    .events-card {
+                                        height: 725px;
+                                        font-weight: 600;
+                                        width: 415px;
+                                        border-radius: 20px;
+                                        -webkit-border-radius: 20px;
+                                        -moz-border-radius: 20px;
+                                        -ms-border-radius: 20px;
+                                        -o-border-radius: 20px;
+                                    }
+                                    a.nav-link.right {
+                                        background-color: #f0d4af;
+                                        margin: 3px 0px 1px 0px;
+                                        height: 30px;
+                                        width: 30px;
+                                        margin-top: 14px;
+                                        margin-right: 0px;
+                                        padding-right: 22px !important;
+                                        margin-left: 20px;
+                                        opacity: 1;
+                                        padding-left: 9px !important;
+                                        padding-top: 7px;
+                                        border-radius: 50%;
+                                        -webkit-border-radius: 50%;
+                                        -moz-border-radius: 50%;
+                                        -ms-border-radius: 50%;
+                                        -o-border-radius: 50%;
+                                    }
+                                    img.message {
+                                        height: -webkit-fill-available;
+                                        margin: 0px;
+                                        margin-right: -15px;
+                                        margin-left: 0px;
+                                    }
+                                    .main-img {
+                                        width: 380px;
+                                        height: 240px;
+                                        margin-bottom: 15px;
+                                        border-radius: 10px;
+                                        -webkit-border-radius: 10px;
+                                        -moz-border-radius: 10px;
+                                        -ms-border-radius: 10px;
+                                        -o-border-radius: 10px;
+                                    }
+                                    .events-card2 {
+                                        height: 725px;
+                                        font-weight: 600;
+                                        width: 415px;
+                                        border-radius: 20px;
+                                        -webkit-border-radius: 20px;
+                                        -moz-border-radius: 20px;
+                                        -ms-border-radius: 20px;
+                                        -o-border-radius: 20px;
+                                    }
+                                    .card.events-card2 {
+                                        height: 1560px !important;
+                                    }
+                                    .row.mt-3.mr-1.marg {
+                                        margin-bottom: 14px;
+                                    }
+                                    .sub-img {
+                                        width: 392px;
+                                        object-fit: cover;
+                                        height: 214px;
+                                        border-radius: 10px;
+                                        -webkit-border-radius: 10px;
+                                        -moz-border-radius: 10px;
+                                        -ms-border-radius: 10px;
+                                        -o-border-radius: 10px;
+                                    }
+                                    li.foot-li {
+                                        display: inline;
+                                        margin: 0px;
+                                        font-size: 12px;
+                                        color: black;
+                                        border-left: 1px solid rgb(212, 212, 212);
+                                        padding-left: 20px;
+                                        text-align: left;
+                                    }
+                                    span.foot-span {
+                                        margin-left: 26px;
+                                        font-size: 12px;
+                                        color: black;
+                                    }
+                                    input.form-control.form-control-navbar {
+                                        margin-left: 88px;
+                                        width: 340px;
+                                        height: 34px;
+                                        border-radius: 25px;
+                                        -webkit-border-radius: 25px;
+                                        -moz-border-radius: 25px;
+                                        -ms-border-radius: 25px;
+                                        -o-border-radius: 25px;
+                                    }
+                                    .form-inline {
+                                        display: -ms-flexbox;
+                                        display: flex;
+                                        -ms-flex-flow: row wrap;
+                                        flex-flow: row wrap;
+                                        -ms-flex-align: center;
+                                        align-items: center;
+                                        margin-left: 0px !important;
+                                    }
+                                    ul.navbar-nav.ml-auto {
+                                        margin-left: 0px !important;
+                                    }
+                                    img.profile-pic {
+                                        width: 70px;
+                                        margin-left: 10px;
+                                        margin-bottom: 21px;
+                                    }
+                                    .welcome2 {
+                                        font-size: 20px;
+                                        margin-right: 70px;
+                                        font-weight: bold;
+                                        margin-left: 25px;
+                                    }
+                                    button.btn2 {
+                                        background-color: #e9c18c;
+                                        padding: 15px;
+                                        width: 186px;
+                                        border-radius: 14px;
+                                        font-size: 18px;
+                                        color: white;
+                                        float: left;
+                                        font-weight: 900;
+                                        margin-left: 30px !important;
+                                        border: none;
+                                        padding-top: 14px;
+                                        margin-top: 15px;
+                                        padding-left: 0px;
+                                        -webkit-border-radius: 14px;
+                                        -moz-border-radius: 14px;
+                                        -ms-border-radius: 14px;
+                                        -o-border-radius: 14px;
+                                    }
+                                    .col-lg-8.madenehe {
+                                        margin-left: 130px;
+                                    }
+                                    html {
+                                        width: 540px;
+                                    }
+                                    .col-md-8.col-sm-9.madenehe {
+                                        margin-left: 125px;
+                                    }
+                                    .new-img {
+                                        vertical-align: middle;
+                                        border-style: none;
+                                        width: 137px;
+                                        margin-left: 30px;
+                                    }
+                                    .text-p {
+                                        margin-left: 46px;
+                                    }
+                                    .text-2 {
+                                        color: black;
+                                        margin-left: 41px;
+                                    }
+                                    .text-3 {
+                                        color: rgb(197, 197, 197);
+                                        margin-left: 38px;
+                                        text-decoration: underline;
+                                        font-size: 12px;
+                                    }
+                                    .events-card {
+                                        height: 725px;
+                                        font-weight: 600;
+                                        width: 678px;
+                                        border-radius: 20px;
+                                        -webkit-border-radius: 20px;
+                                        -moz-border-radius: 20px;
+                                        -ms-border-radius: 20px;
+                                        -o-border-radius: 20px;
+                                    }
+                                    .bootstrap-datetimepicker-widget table {
+                                        width: 390px;
+                                        margin-left: 126px;
+                                        height: 315px;
+                                    }
+                                    h3.heading {
+                                        margin-left: 170px;
+                                    }
+                                    h3.heading.mb-3 {
+                                        margin-left: 12px;
+                                    }
+                                    .docx-img {
+                                        border: 1px solid;
+                                        background-color: #dabd96;
+                                        border-radius: 7px;
+                                        border: none;
+                                        margin-left: 18px !important;
+                                        -webkit-border-radius: 7px;
+                                        -moz-border-radius: 7px;
+                                        -ms-border-radius: 7px;
+                                        -o-border-radius: 7px;
+                                    }
+                                    li.icons-link {
+                                        margin-right: 70px !important;
+                                    }
+                                    i.far.fa-newspaper {
+                                        font-size: 40px;
+                                        padding: 10px;
+                                        border: 2px solid white;
+                                        border-radius: 15%;
+                                        background-color: white;
+                                        color: #7293b7;
+                                        -webkit-border-radius: 15%;
+                                        -moz-border-radius: 15%;
+                                        -ms-border-radius: 15%;
+                                        -o-border-radius: 15%;
+                                    }
+                                    i.fas.fa-poll {
+                                        font-size: 40px;
+                                        border: 2px solid white;
+                                        border-radius: 15%;
+                                        padding: 11px;
+                                        background-color: white;
+                                        color: #7293b7;
+                                        -webkit-border-radius: 15%;
+                                        -moz-border-radius: 15%;
+                                        -ms-border-radius: 15%;
+                                        -o-border-radius: 15%;
+                                    }
+                                    i.fas.fa-inbox {
+                                        font-size: 40px;
+                                        border: 2px solid white;
+                                        border-radius: 15%;
+                                        padding: 10px;
+                                        background-color: white;
+                                        color: #7293b7;
+                                        -webkit-border-radius: 15%;
+                                        -moz-border-radius: 15%;
+                                        -ms-border-radius: 15%;
+                                        -o-border-radius: 15%;
+                                    }
+                                    .card.events-card2 {
+                                        height: 1560px !important;
+                                        width: 683px;
+                                    }
+                                    .main-img {
+                                        width: 618px;
+                                        height: 240px;
+                                        margin-bottom: 15px;
+                                        border-radius: 10px;
+                                        -webkit-border-radius: 10px;
+                                        -moz-border-radius: 10px;
+                                        -ms-border-radius: 10px;
+                                        -o-border-radius: 10px;
+                                    }
+                                    .sub-img {
+                                        width: 636px;
+                                        object-fit: cover;
+                                        height: 214px;
+                                        border-radius: 10px;
+                                    }
+                                    .sub-img {
+                                        width: 636px;
+                                        object-fit: cover;
+                                        height: 198px;
+                                        border-radius: 10px;
+                                    }
+                                }
+                                
+                                @media only screen and (max-width: 425px) {
+                                    .main-footer {
+                                        background: #fff;
+                                        border-top: 1px solid #dee2e6;
+                                        color: #869099;
+                                        padding: 8px 0px 2px 0px;
+                                    }
+                                    .employee-images {
+                                        vertical-align: middle;
+                                        border-style: none;
+                                        height: 70px;
+                                        width: 620px;
+                                        border-radius: 15px;
+                                        -webkit-border-radius: 15px;
+                                        -moz-border-radius: 15px;
+                                        -ms-border-radius: 15px;
+                                        -o-border-radius: 15px;
+                                    }
+                                    iframe {
+                                        border-radius: 20px;
+                                        width: 616px;
+                                        height: 207px;
+                                        margin: 0px;
+                                    }
+                                    .sidebar-content {
+                                        margin-top: 15px;
+                                    }
+                                    /*Small smartphones [325px -> 425px]*/
+                                    input.form-control.form-control-navbar {
+                                        margin-left: 90px;
+                                        width: 202px;
+                                        height: 34px;
+                                        border-radius: 25px;
+                                        -webkit-border-radius: 25px;
+                                        -moz-border-radius: 25px;
+                                        -ms-border-radius: 25px;
+                                        -o-border-radius: 25px;
+                                    }
+                                    .content-wrapper {
+                                        width: 733px;
+                                    }
+                                    .mySlides {
+                                        border-radius: 25px;
+                                        height: 180px;
+                                        width: 680px;
+                                        margin: 16px 0px 0px 7px !important;
+                                        object-fit: cover;
+                                        -webkit-border-radius: 25px;
+                                        -moz-border-radius: 25px;
+                                        -ms-border-radius: 25px;
+                                        -o-border-radius: 25px;
+                                    }
+                                    .col-sm-4 {
+                                        margin-top: 10px;
+                                        text-align: center;
+                                        margin-right: 0px;
+                                    }
+                                    i.fas.fa-bars {
+                                        font-size: 19px;
+                                        color: black;
+                                        opacity: 0.9;
+                                    }
+                                    form.form-inline.ml-3 {
+                                        width: 250px;
+                                    }
+                                    button.btn2 {
+                                        background-color: #e9c18c;
+                                        padding: 15px;
+                                        width: 170px;
+                                        border-radius: 14px;
+                                        font-size: 18px;
+                                        color: white;
+                                        float: left;
+                                        font-weight: 900;
+                                        margin-left: 30px !important;
+                                        border: none;
+                                        padding-top: 14px;
+                                        margin-top: 15px;
+                                        padding-left: 0px;
+                                    }
+                                    .welcome3 {
+                                        font-size: 20px;
+                                        margin-right: 0px;
+                                        font-weight: bold;
+                                        margin-left: 6px;
+                                    }
+                                    .user3 {
+                                        font-size: 14px;
+                                        float: none;
+                                        margin-top: 5px;
+                                    }
+                                    .card {
+                                        height: 415px;
+                                        font-weight: 600;
+                                        width: 680px;
+                                        border-radius: 20px;
+                                        -webkit-border-radius: 20px;
+                                        -moz-border-radius: 20px;
+                                        -ms-border-radius: 20px;
+                                        -o-border-radius: 20px;
+                                    }
+                                    .events-card {
+                                        height: 725px;
+                                        font-weight: 600;
+                                        width: 415px;
+                                        border-radius: 20px;
+                                        -webkit-border-radius: 20px;
+                                        -moz-border-radius: 20px;
+                                        -ms-border-radius: 20px;
+                                        -o-border-radius: 20px;
+                                    }
+                                    a.nav-link.right {
+                                        background-color: #f0d4af;
+                                        margin: 3px 0px 1px 0px;
+                                        height: 30px;
+                                        width: 30px;
+                                        margin-top: 14px;
+                                        margin-right: 0px;
+                                        padding-right: 22px !important;
+                                        margin-left: 20px;
+                                        opacity: 1;
+                                        padding-left: 9px !important;
+                                        padding-top: 7px;
+                                        border-radius: 50%;
+                                        -webkit-border-radius: 50%;
+                                        -moz-border-radius: 50%;
+                                        -ms-border-radius: 50%;
+                                        -o-border-radius: 50%;
+                                    }
+                                    img.message {
+                                        height: -webkit-fill-available;
+                                        margin: 0px;
+                                        margin-right: -15px;
+                                        margin-left: 0px;
+                                    }
+                                    .main-img {
+                                        width: 380px;
+                                        height: 240px;
+                                        margin-bottom: 15px;
+                                        border-radius: 10px;
+                                        -webkit-border-radius: 10px;
+                                        -moz-border-radius: 10px;
+                                        -ms-border-radius: 10px;
+                                        -o-border-radius: 10px;
+                                    }
+                                    .events-card2 {
+                                        height: 725px;
+                                        font-weight: 600;
+                                        width: 415px;
+                                        border-radius: 20px;
+                                        -webkit-border-radius: 20px;
+                                        -moz-border-radius: 20px;
+                                        -ms-border-radius: 20px;
+                                        -o-border-radius: 20px;
+                                    }
+                                    .card.events-card2 {
+                                        height: 1560px !important;
+                                    }
+                                    .row.mt-3.mr-1.marg {
+                                        margin-bottom: 14px;
+                                    }
+                                    .sub-img {
+                                        width: 392px;
+                                        object-fit: cover;
+                                        height: 214px;
+                                        border-radius: 10px;
+                                    }
+                                    li.foot-li {
+                                        display: inline;
+                                        margin: 0px;
+                                        font-size: 12px;
+                                        color: black;
+                                        border-left: 1px solid rgb(212, 212, 212);
+                                        padding-left: 20px;
+                                        text-align: left;
+                                    }
+                                    span.foot-span {
+                                        margin-left: 26px;
+                                        font-size: 12px;
+                                        color: black;
+                                    }
+                                    .col-lg-8.madenehe {
+                                        margin-left: 0px;
+                                    }
+                                    html {
+                                        width: 540px;
+                                    }
+                                    .col-md-8.col-sm-9.madenehe {
+                                        margin-left: 0px;
+                                    }
+                                    .new-img {
+                                        vertical-align: middle;
+                                        border-style: none;
+                                        width: 137px;
+                                        margin-left: 30px;
+                                    }
+                                    .text-p {
+                                        margin-left: 46px;
+                                    }
+                                    .text-2 {
+                                        color: black;
+                                        margin-left: 41px;
+                                    }
+                                    .text-3 {
+                                        color: rgb(197, 197, 197);
+                                        margin-left: 38px;
+                                        text-decoration: underline;
+                                        font-size: 12px;
+                                    }
+                                    ul.navbar-nav.ml-auto {
+                                        margin-left: 120px !important;
+                                    }
+                                    .events-card {
+                                        height: 725px;
+                                        font-weight: 600;
+                                        width: 682px;
+                                        border-radius: 20px;
+                                    }
+                                    .card.events-card2 {
+                                        height: 1560px !important;
+                                        width: 676px;
+                                    }
+                                    .main-img {
+                                        width: 608px;
+                                        height: 240px;
+                                        margin-bottom: 15px;
+                                        border-radius: 10px;
+                                        -webkit-border-radius: 10px;
+                                        -moz-border-radius: 10px;
+                                        -ms-border-radius: 10px;
+                                        -o-border-radius: 10px;
+                                    }
+                                    .sub-img {
+                                        width: 626px;
+                                        object-fit: cover;
+                                        height: 214px;
+                                        border-radius: 10px;
+                                    }
+                                    h3.heading {
+                                        margin-left: 170px;
+                                    }
+                                    h3.heading.mb-3 {
+                                        margin-left: 12px;
+                                    }
+                                    .docx-img {
+                                        border: 1px solid;
+                                        background-color: #dabd96;
+                                        border-radius: 7px;
+                                        border: none;
+                                        margin-left: 18px !important;
+                                    }
+                                    li.icons-link {
+                                        margin-right: 70px !important;
+                                    }
+                                    i.far.fa-newspaper {
+                                        font-size: 40px;
+                                        padding: 10px;
+                                        border: 2px solid white;
+                                        border-radius: 15%;
+                                        background-color: white;
+                                        color: #7293b7;
+                                        -webkit-border-radius: 15%;
+                                        -moz-border-radius: 15%;
+                                        -ms-border-radius: 15%;
+                                        -o-border-radius: 15%;
+                                    }
+                                    i.fas.fa-poll {
+                                        font-size: 40px;
+                                        border: 2px solid white;
+                                        border-radius: 15%;
+                                        padding: 11px;
+                                        background-color: white;
+                                        color: #7293b7;
+                                        -webkit-border-radius: 15%;
+                                        -moz-border-radius: 15%;
+                                        -ms-border-radius: 15%;
+                                        -o-border-radius: 15%;
+                                    }
+                                    i.fas.fa-inbox {
+                                        font-size: 40px;
+                                        border: 2px solid white;
+                                        border-radius: 15%;
+                                        padding: 10px;
+                                        background-color: white;
+                                        color: #7293b7;
+                                        -webkit-border-radius: 15%;
+                                        -moz-border-radius: 15%;
+                                        -ms-border-radius: 15%;
+                                        -o-border-radius: 15%;
+                                    }
+                                    ul#ul1 {
+                                        margin-left: 45px;
+                                    }
+                                    ul#ul2 {
+                                        margin-left: 45px;
+                                    }
+                                    ul#ul3 {
+                                        margin-left: 45px;
+                                    }
+                                    ul#ul4 {
+                                        margin-left: 45px;
+                                    }
+                                    .bootstrap-datetimepicker-widget table {
+                                        width: 390px;
+                                        margin-left: 126px;
+                                        height: 315px;
+                                    }
+                                    .text-p {
+                                        margin-left: 46px;
+                                    }
+                                    .text-2 {
+                                        color: black;
+                                        margin-left: 41px;
+                                    }
+                                    .text-3 {
+                                        color: rgb(197, 197, 197);
+                                        margin-left: 38px;
+                                        text-decoration: underline;
+                                        font-size: 12px;
+                                    }
+                                    .events-card {
+                                        height: 725px;
+                                        font-weight: 600;
+                                        width: 678px;
+                                        border-radius: 20px;
+                                        -webkit-border-radius: 20px;
+                                        -moz-border-radius: 20px;
+                                        -ms-border-radius: 20px;
+                                        -o-border-radius: 20px;
+                                    }
+                                    .sub-img {
+                                        width: 626px;
+                                        object-fit: cover;
+                                        height: 198px;
+                                        border-radius: 10px;
+                                    }
+                                }

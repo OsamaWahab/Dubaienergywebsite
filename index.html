@@ -1,0 +1,1750 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>AdminLTE 3 | Dashboard</title>
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
+    <!-- Ionicons -->
+    <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <!-- Tempusdominus Bbootstrap 4 -->
+    <link rel="stylesheet" href="plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css">
+    <!-- iCheck -->
+    <link rel="stylesheet" href="plugins/icheck-bootstrap/icheck-bootstrap.min.css">
+    <!-- JQVMap -->
+    <link rel="stylesheet" href="plugins/jqvmap/jqvmap.min.css">
+    <!-- Theme style -->
+    <link rel="stylesheet" href="dist/css/adminlte.min.css">
+    <!-- overlayScrollbars -->
+    <link rel="stylesheet" href="plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
+    <!-- Daterange picker -->
+    <link rel="stylesheet" href="plugins/daterangepicker/daterangepicker.css">
+    <!-- summernote -->
+    <link rel="stylesheet" href="plugins/summernote/summernote-bs4.css">
+    <!-- Google Font: Source Sans Pro -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/theme1.css">
+    <link rel="stylesheet" href="css/theme2.css">
+    <link rel="stylesheet" href="css/theme3.css">
+    <link rel="stylesheet" href="/dist/css/mycss.css">
+
+</head>
+
+<body class="hold-transition sidebar-mini layout-fixed">
+    <div class="wrapper">
+
+        <!-- Navbar -->
+        <nav class="main-header navbar navbar-expand navbar-white navbar-light">
+            <!-- Left navbar links -->
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
+                </li>
+                <li class="nav-item d-none d-sm-inline-block">
+                    <a href="#" class="nav-link pb-3">
+                        <span class="bord">
+          <p id="currentTime" class="currentTime" >
+          </p>
+          <p id="currentdate" class=" currentdate" style="padding-top:0px; margin-bottom: 0px; font-size: 12px;">
+            Friday, 18 Octubar 2020
+        </p>
+      </span>
+                    </a>
+                </li>
+                <li class="nav-item d-none d-sm-inline-block bord">
+                    <a href="#" class="nav-link pb-3">
+                        <img src="/dist/img/img/masjid.png" class="masjidpic">
+                        <span class=" namaz">
+                          <p class="masjid" >
+                            Fajar: 5:30 AM
+                          </p>
+    <p class="dubai" >
+      Abu Dhabi, UAE
+    </p>
+    </span>
+                    </a>
+                </li>
+
+                <li class="nav-item d-none d-sm-inline-block bord">
+                    <a href="#" class="nav-link pb-3">
+                        <img src="/dist/img/img/sun.png" class="masjidpic">
+                        <span class=" namaz">
+                      <p class="temp" >
+                        32 &deg;C
+  </p>
+  <p class="dubai" >
+    Abu Dhabi, UAE
+  </p>
+</span>
+                    </a>
+                </li>
+            </ul>
+
+            <!-- SEARCH FORM -->
+            <form class="form-inline ml-3">
+                <div class="input-group input-group-sm">
+                    <input class="form-control form-control-navbar" type="search" placeholder="Search everything...." aria-label="Search">
+                    <div class="input-group-append">
+                        <button class="btn btn-navbar" type="submit">
+                        <i class="fas fa-search"></i>
+                      </button>
+                    </div>
+                </div>
+            </form>
+
+            <!-- Right navbar links -->
+            <ul class="navbar-nav ml-auto">
+                <!-- Messages Dropdown Menu -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link" data-toggle="dropdown" href="#">
+                        <img class="message" src="/dist/img/img/msg.png" alt="check net">
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
+                        <a href="#" class="dropdown-item">
+                            <!-- Message Start -->
+                            <div class="media">
+                                <img src="dist/img/user1-128x128.jpg" alt="User Avatar" class="img-size-50 mr-3 img-circle">
+                                <div class="media-body">
+                                    <h3 class="dropdown-item-title">
+                                        Brad Diesel
+                                        <span class="float-right text-sm text-danger"><i class="fas fa-star"></i></span>
+                                    </h3>
+                                    <p class="text-sm">Call me whenever you can...</p>
+                                    <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 Hours Ago</p>
+                                </div>
+                            </div>
+                            <!-- Message End -->
+                        </a>
+                        <div class="dropdown-divider"></div>
+                        <a href="#" class="dropdown-item">
+                            <!-- Message Start -->
+                            <div class="media">
+                                <img src="dist/img/user8-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
+                                <div class="media-body">
+                                    <h3 class="dropdown-item-title">
+                                        John Pierce
+                                        <span class="float-right text-sm text-muted"><i class="fas fa-star"></i></span>
+                                    </h3>
+                                    <p class="text-sm">I got your message bro</p>
+                                    <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 Hours Ago</p>
+                                </div>
+                            </div>
+                            <!-- Message End -->
+                        </a>
+                        <div class="dropdown-divider"></div>
+                        <a href="#" class="dropdown-item">
+                            <!-- Message Start -->
+                            <div class="media">
+                                <img src="dist/img/user3-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
+                                <div class="media-body">
+                                    <h3 class="dropdown-item-title">
+                                        Nora Silvester
+                                        <span class="float-right text-sm text-warning"><i class="fas fa-star"></i></span>
+                                    </h3>
+                                    <p class="text-sm">The subject goes here</p>
+                                    <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 Hours Ago</p>
+                                </div>
+                            </div>
+                            <!-- Message End -->
+                        </a>
+                        <div class="dropdown-divider"></div>
+                        <a href="#" class="dropdown-item dropdown-footer">See All Messages</a>
+                    </div>
+                </li>
+                <!-- Notifications Dropdown Menu -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link right" data-toggle="dropdown" href="#">
+                        <i class="fa fa-quote-right"></i>
+                    </a>
+
+                    <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
+                        <span class="dropdown-item dropdown-header">15 Notifications</span>
+                        <div class="dropdown-divider"></div>
+                        <a href="#" class="dropdown-item">
+                            <i class="fas fa-envelope mr-2"></i> 4 new messages
+                            <span class="float-right text-muted text-sm">3 mins</span>
+                        </a>
+                        <div class="dropdown-divider"></div>
+                        <a href="#" class="dropdown-item">
+                            <i class="fas fa-users mr-2"></i> 8 friend requests
+                            <span class="float-right text-muted text-sm">12 hours</span>
+                        </a>
+                        <div class="dropdown-divider"></div>
+                        <a href="#" class="dropdown-item">
+                            <i class="fas fa-file mr-2"></i> 3 new reports
+                            <span class="float-right text-muted text-sm">2 days</span>
+                        </a>
+                        <div class="dropdown-divider"></div>
+                        <a href="#" class="dropdown-item dropdown-footer">See All Notifications</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-widget="control-sidebar" data-slide="true" href="#" role="button">
+                        <button class="arabic" type="submit" value="العربية" style="color: w
+                        hite">
+            العربية
+       </button>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <!-- /.navbar -->
+
+        <!-- Main Sidebar Container -->
+        <div class="main-sidebar sidebar-dark-primary elevation-4 " style="background-color: #d8e3e9;">
+            <!-- Brand Logo -->
+            <div class="container mr-2 ">
+                <div class="row mt-3">
+                    <div class="col">
+                        <img src="/dist/img/img/newlogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3">
+
+                    </div>
+                </div>
+
+                <div class="sidebar">
+
+                    <div class="row ml-2 mr-2 back-color">
+                        <div class="col">
+
+
+                            <nav class="mt-2 navbar-set">
+                                <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+
+                                    <li class="nav-item has-treeview menu-open">
+                                        <a href="#" class="nav-link ">
+                                            <p class="nav-text-set2 ">
+                                                Dashboard
+                                            </p>
+                                        </a>
+
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a href="pages/widgets.html" class="nav-link">
+
+                                            <p class="nav-text-set">
+                                                Departments
+                                            </p>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item has-treeview">
+                                        <a href="#" class="nav-link">
+                                            <p class="nav-text-set">
+                                                Policy & Procedures
+
+                                            </p>
+                                        </a>
+
+                                    </li>
+                                    <li class="nav-item has-treeview">
+                                        <a href="#" class="nav-link">
+
+                                            <p class="nav-text-set">
+                                                Staff Directory
+                                            </p>
+                                        </a>
+
+                                    </li>
+                                    <li class="nav-item has-treeview">
+                                        <a href="#" class="nav-link">
+                                            <p class="nav-text-set">
+                                                Document Library
+
+                                            </p>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item has-treeview">
+                                        <a href="#" class="nav-link">
+
+                                            <p class="nav-text-set">
+                                                Forums
+
+                                            </p>
+                                        </a>
+
+                                    </li>
+                                    <li class="nav-item has-treeview">
+                                        <a href="#" class="nav-link">
+
+                                            <p class="nav-text-set">
+                                                FAQ's
+
+                                            </p>
+                                        </a>
+
+                                    </li>
+                                    <li class="nav-item has-treeview">
+                                        <a href="#" class="nav-link">
+
+                                            <p class="nav-text-set">
+                                                Site Map
+
+                                            </p>
+                                        </a>
+
+                                    </li>
+                            </nav>
+
+
+                        </div>
+
+                    </div>
+
+
+
+
+
+
+                    <div class="row ml- 5 mt-3" style="background-color: #d8e3e9;">
+                        <div class="col">
+
+                            <button type="button" class="side-btn ml-2" value="Executive Messages">Executive Messages
+                            <i class="fas fa-plus"></i>
+                        </button>
+
+                            <button type="button" class="side-btn2 mt-5 ml-3" value="Executive Messages">
+                            Ask Chairman
+                          
+                        </button>
+                            <button type="button" class="side-btn2 mt-3 ml-3" value="Executive Messages">
+                            Raise a Query
+                          
+                        </button>
+
+                        </div>
+                    </div>
+
+                    <div class="sidebar">
+                        <div class="row ml-1 mr-2 mt-5 back-color">
+                            <div class="col">
+
+                                <nav class="mt-2 navbar-set ">
+                                    <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+
+                                        <li class="nav-item has-treeview menu-open">
+                                            <a href="#" class="nav-link ">
+                                                <p class="nav-text-set2 ">
+                                                    Poll
+                                                </p>
+                                            </a>
+
+                                        </li>
+
+                                        <li class="nav-item">
+
+                                            <form class="sideform" action="#">
+                                                <p class="nav-text-set">
+                                                    How you rate the Portal?
+                                                </p>
+                                                <input type="radio" id="Excellent" name="fav_language" value="Excellent">   <label for="Excellent">Excellent</label><br>
+                                                <input type="radio" id="Good" name="fav_language" value="Good">   <label for="Good">Good</label><br>
+                                                <input type="radio" id="Poor" name="fav_language" value="Poor">   <label for="Poor">Poor</label><br>
+                                                <input type="radio" id="Bad" name="fav_language" value="Bad">
+                                                <label for="Bad" class="lab">Bad</label><br>
+                                                <button type="button" class="side-btn2 mt-3 ml-1 mb-4" value="Executive Messages">
+                                                        Submit     
+                                                    </button>
+                                            </form>
+
+                                        </li>
+                                    </ul>
+                                </nav>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+
+
+
+
+        <!-- Content Wrapper. Contains page content -->
+        <div class="content-wrapper">
+            <!-- Content Header (Page header) -->
+            <div class="content-header">
+                <div class="container-fluid">
+                    <div class="row mb-2">
+                        <div class="col-sm-12">
+                            <div class="w3-content w3-section mr-2 slider-class">
+                                <img class="mySlides " src="/dist/img/img/pic.jpg ">
+                                <img class="mySlides " src="/dist/img/img/Ss.webp ">
+                                <img class="mySlides " src="/dist/img/img/s3.jpg ">
+                            </div>
+
+                        </div>
+                        <!-- /.col -->
+                        <!-- /.col -->
+                    </div>
+                    <div class="row mb-2">
+                        <div class="col-sm-4 col-12 ">
+                            <img class="profile-pic " src="/dist/img/img/i2.png ">
+
+                            <span class="welcome " style="color: black ">
+                                        <span class="user " style="color: rgb(197 193 210 ) "> 
+                                          Hello, Hamdan</span>
+                            </br>
+                            <span class="user ">        Welcome to your Dashboard</span>
+
+                        </div>
+
+
+                        <div class="col-sm-4 col-8 ">
+                            <button type="button " class="btn2 ">
+                            Inbox (750)
+                        </button>
+
+                            <span class="welcome2 " style="color: black ">
+                          <span class="user2 " style="color: rgb(197 193 210 ) "> 
+                            Unread</span>
+                            </br>
+                            165 items</span>
+
+                        </div>
+
+
+                        <div class="col-sm-4  col-4 read">
+                            <span class="welcome3 " style="color: black ">
+                            <span class="user3 " style="color: rgb(197 193 210 ) "> 
+                                Read</span>
+                            </br>
+                            58 items</span>
+
+
+
+                        </div>
+
+                    </div>
+                    <!-- /.row -->
+                </div>
+                <!-- /.container-fluid -->
+            </div>
+            <!-- /.content-header -->
+
+            <!-- Main content -->
+            <div class="content">
+                <div class="container-fluid">
+                    <!-- Small boxes (Stat box) -->
+
+                    <!-- /.row -->
+                    <!-- Main row -->
+                    <div class="row m-2">
+                        <!-- Left col -->
+                        <div class="col-lg-4">
+                            <!-- Custom tabs (Charts with tabs)-->
+
+                            <div class="card" style="height:415px; background-color: #7ba5bb;">
+                                <div class="card-header">
+                                    <h3 class="card-title" style="color: white;">Announcements</h3>
+                                    <div class="card-tools">
+                                        <a href="#" class="view4" style="color: #fafafa;">
+                                      View All
+                                    </a>
+                                    </div>
+                                </div>
+                                <!-- /.card-header -->
+                                <div class="card-body scrollbar">
+
+                                    <div class="row">
+                                        <div class="col ml-4 announ-day">
+                                            <p class="announ-text">
+                                                Friday
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="row ">
+                                        <div class="col ml-4 announ-date">
+                                            <p class="announ-text2">
+                                                9 Octubar 2020
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="row mt-3">
+                                        <div class="col ml-4 announ-day2">
+                                            <h4 class="announ-text3">
+                                                National Day</h4>
+                                        </div>
+                                    </div>
+                                    <div class="row overflow">
+                                        <div class="col ml-4 announ-para ">
+                                            <p class="announ-textpara ">
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur alias fuga, at soluta quasi voluptate aspernatur nemo quibusdam ut est, molestiae nesciunt magnam itaque minima explicabo assumenda veritatis quos quo, ipsa rerum modi architecto repellendus
+                                                asperiores vero? Sed voluptate delectus labore aspernatur nobis exercitationem, vitae est magnam odio perspiciatis aut animi voluptatum nulla repudiandae iste, architecto blanditiis natus incidunt? Incidunt
+                                                earum sint quaerat veritatisa <button id="dot" class="btn-dot" onclick="changehtml()">...</button>
+                                                <p class="announ-textpara" id="para1">
+                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda provident officiis earum, minima rerum voluptate quod modi soluta expedita, explicabo deleniti fugit nobis ratione accusantium ipsum inventore facilis iusto quasi dolorum facere quia debitis
+                                                    eaque eveniet. Adipisci delectus ullam, magni necessitatibus temporibus ipsam earum nemo non quasi provident, rem fugiat.
+                                                    <button id="dot2" class="btn-dot2" onclick="hidehtml()">Hide</button>
+                                                </p>
+                                            </p>
+                                        </div>
+                                    </div>
+
+
+                                    <!-- /.direct-chat-pane -->
+                                    </d3v>
+                                    <!-- /.card-body -->
+
+                                </div>
+                                <!--/.Task Cimpletion -->
+                            </div>
+
+                            <!-- /.card -->
+                        </div>
+                        <!-- /.Left col -->
+                        <!-- right col (We are only adding the ID to make the widgets sortable)-->
+                        <div class="col-lg-8 ">
+
+                            <!-- Calendar -->
+                            <div class="card events-card">
+
+
+                                <div class="card-header" style="border-bottom: 1px solid rgba(0,0,0,.125);">
+                                    <h3 class="card-title">
+                                        Events
+                                    </h3>
+                                    <div class="card-tools">
+                                        <a href="#" class="view2">
+                                          View All
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-6">
+
+
+
+                                            <div class="card-body pt-0">
+                                                <!--The calendar -->
+                                                <div id="calendar" style="width: 100%">
+
+
+                                                    <div class="bootstrap-datetimepicker-widget usetwentyfour">
+                                                        <ul class="list-unstyled">
+                                                            <li class="show">
+                                                                <div class="datepicker">
+                                                                    <div class="datepicker-days">
+                                                                        <table class="table table-sm">
+                                                                            <thead>
+                                                                                <tr>
+                                                                                    <th class="prev" data-action="previous"><span class="fa fa-chevron-left" title="Previous Month"></span></th>
+                                                                                    <th class="picker-switch" data-action="pickerSwitch" colspan="5" title="Select Month">August 2021</th>
+                                                                                    <th class="next" data-action="next"><span class="fa fa-chevron-right" title="Next Month"></span></th>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <th class="dow">Su</th>
+                                                                                    <th class="dow">Mo</th>
+                                                                                    <th class="dow">Tu</th>
+                                                                                    <th class="dow">We</th>
+                                                                                    <th class="dow">Th</th>
+                                                                                    <th class="dow">Fr</th>
+                                                                                    <th class="dow">Sa</th>
+                                                                                </tr>
+                                                                            </thead>
+                                                                            <tbody>
+                                                                                <tr>
+                                                                                    <td data-action="selectDay" data-day="08/01/2021" class="day weekend">1</td>
+                                                                                    <td data-action="selectDay" data-day="08/02/2021" class="day">2</td>
+                                                                                    <td data-action="selectDay" data-day="08/03/2021" class="day">3</td>
+                                                                                    <td data-action="selectDay" data-day="08/04/2021" class="day">4</td>
+                                                                                    <td data-action="selectDay" data-day="08/05/2021" class="day">5</td>
+                                                                                    <td data-action="selectDay" data-day="08/06/2021" class="day">6</td>
+                                                                                    <td data-action="selectDay" data-day="08/07/2021" class="day weekend">7</td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td data-action="selectDay" data-day="08/08/2021" class="day weekend">8</td>
+                                                                                    <td data-action="selectDay" data-day="08/09/2021" class="day">9</td>
+                                                                                    <td data-action="selectDay" data-day="08/10/2021" class="day">10</td>
+                                                                                    <td data-action="selectDay" data-day="08/11/2021" class="day">11</td>
+                                                                                    <td data-action="selectDay" data-day="08/12/2021" class="day">12</td>
+                                                                                    <td data-action="selectDay" data-day="08/13/2021" class="day">13</td>
+                                                                                    <td data-action="selectDay" data-day="08/14/2021" class="day weekend">14</td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td data-action="selectDay" data-day="08/15/2021" class="day weekend">15</td>
+                                                                                    <td data-action="selectDay" data-day="08/16/2021" class="day">16</td>
+                                                                                    <td data-action="selectDay" data-day="08/17/2021" class="day active today">17</td>
+                                                                                    <td data-action="selectDay" data-day="08/18/2021" class="day">18</td>
+                                                                                    <td data-action="selectDay" data-day="08/19/2021" class="day">19</td>
+                                                                                    <td data-action="selectDay" data-day="08/20/2021" class="day">20</td>
+                                                                                    <td data-action="selectDay" data-day="08/21/2021" class="day weekend">21</td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td data-action="selectDay" data-day="08/22/2021" class="day weekend">22</td>
+                                                                                    <td data-action="selectDay" data-day="08/23/2021" class="day">23</td>
+                                                                                    <td data-action="selectDay" data-day="08/24/2021" class="day">24</td>
+                                                                                    <td data-action="selectDay" data-day="08/25/2021" class="day">25</td>
+                                                                                    <td data-action="selectDay" data-day="08/26/2021" class="day">26</td>
+                                                                                    <td data-action="selectDay" data-day="08/27/2021" class="day">27</td>
+                                                                                    <td data-action="selectDay" data-day="08/28/2021" class="day weekend">28</td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td data-action="selectDay" data-day="08/29/2021" class="day weekend">29</td>
+                                                                                    <td data-action="selectDay" data-day="08/30/2021" class="day">30</td>
+                                                                                    <td data-action="selectDay" data-day="08/31/2021" class="day">31</td>
+                                                                                    <td data-action="selectDay" data-day="09/01/2021" class="day new">1</td>
+                                                                                    <td data-action="selectDay" data-day="09/02/2021" class="day new">2</td>
+                                                                                    <td data-action="selectDay" data-day="09/03/2021" class="day new">3</td>
+                                                                                    <td data-action="selectDay" data-day="09/04/2021" class="day new weekend">4</td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td data-action="selectDay" data-day="09/05/2021" class="day new weekend">5</td>
+                                                                                    <td data-action="selectDay" data-day="09/06/2021" class="day new">6</td>
+                                                                                    <td data-action="selectDay" data-day="09/07/2021" class="day new">7</td>
+                                                                                    <td data-action="selectDay" data-day="09/08/2021" class="day new">8</td>
+                                                                                    <td data-action="selectDay" data-day="09/09/2021" class="day new">9</td>
+                                                                                    <td data-action="selectDay" data-day="09/10/2021" class="day new">10</td>
+                                                                                    <td data-action="selectDay" data-day="09/11/2021" class="day new weekend">11</td>
+                                                                                </tr>
+                                                                            </tbody>
+                                                                        </table>
+                                                                    </div>
+                                                                    <div class="datepicker-months" style="display: none;">
+                                                                        <table class="table-condensed">
+                                                                            <thead>
+                                                                                <tr>
+                                                                                    <th class="prev" data-action="previous"><span class="fa fa-chevron-left" title="Previous Year"></span></th>
+                                                                                    <th class="picker-switch" data-action="pickerSwitch" colspan="5" title="Select Year">2021</th>
+                                                                                    <th class="next" data-action="next"><span class="fa fa-chevron-right" title="Next Year"></span></th>
+                                                                                </tr>
+                                                                            </thead>
+                                                                            <tbody>
+                                                                                <tr>
+                                                                                    <td colspan="7"><span data-action="selectMonth" class="month">Jan</span><span data-action="selectMonth" class="month">Feb</span><span data-action="selectMonth" class="month">Mar</span>
+                                                                                        <span data-action="selectMonth" class="month">Apr</span><span data-action="selectMonth" class="month">May</span><span data-action="selectMonth" class="month">Jun</span>
+                                                                                        <span data-action="selectMonth" class="month">Jul</span>
+                                                                                        <span data-action="selectMonth" class="month active">Aug</span><span data-action="selectMonth" class="month">Sep</span><span data-action="selectMonth" class="month">Oct</span>
+                                                                                        <span data-action="selectMonth" class="month">Nov</span>
+                                                                                        <span data-action="selectMonth" class="month">Dec</span>
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </tbody>
+                                                                        </table>
+                                                                    </div>
+                                                                    <div class="datepicker-years" style="display: none;">
+                                                                        <table class="table-condensed">
+                                                                            <thead>
+                                                                                <tr>
+                                                                                    <th class="prev" data-action="previous"><span class="fa fa-chevron-left" title="Previous Decade"></span></th>
+                                                                                    <th class="picker-switch" data-action="pickerSwitch" colspan="5" title="Select Decade">2020-2029</th>
+                                                                                    <th class="next" data-action="next"><span class="fa fa-chevron-right" title="Next Decade"></span></th>
+                                                                                </tr>
+                                                                            </thead>
+                                                                            <tbody>
+                                                                                <tr>
+                                                                                    <td colspan="7"><span data-action="selectYear" class="year old">2019</span><span data-action="selectYear" class="year">2020</span><span data-action="selectYear" class="year active">2021</span>
+                                                                                        <span data-action="selectYear" class="year">2022</span><span data-action="selectYear" class="year">2023</span><span data-action="selectYear" class="year">2024</span>
+                                                                                        <span data-action="selectYear" class="year">2025</span>
+                                                                                        <span data-action="selectYear" class="year">2026</span><span data-action="selectYear" class="year">2027</span><span data-action="selectYear" class="year">2028</span>
+                                                                                        <span data-action="selectYear" class="year">2029</span>
+                                                                                        <span data-action="selectYear" class="year old">2030</span>
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </tbody>
+                                                                        </table>
+                                                                    </div>
+                                                                    <div class="datepicker-decades" style="display: none;">
+                                                                        <table class="table-condensed">
+                                                                            <thead>
+                                                                                <tr>
+                                                                                    <th class="prev" data-action="previous"><span class="fa fa-chevron-left" title="Previous Century"></span></th>
+                                                                                    <th class="picker-switch" data-action="pickerSwitch" colspan="5">2000-2090</th>
+                                                                                    <th class="next" data-action="next"><span class="fa fa-chevron-right" title="Next Century"></span></th>
+                                                                                </tr>
+                                                                            </thead>
+                                                                            <tbody>
+                                                                                <tr>
+                                                                                    <td colspan="7"><span data-action="selectDecade" class="decade old" data-selection="2006">1990</span><span data-action="selectDecade" class="decade" data-selection="2006">2000</span>
+                                                                                        <span data-action="selectDecade" class="decade active" data-selection="2016">2010</span><span data-action="selectDecade" class="decade active" data-selection="2026">2020</span>
+                                                                                        <span data-action="selectDecade" class="decade" data-selection="2036">2030</span>
+                                                                                        <span data-action="selectDecade" class="decade" data-selection="2046">2040</span><span data-action="selectDecade" class="decade" data-selection="2056">2050</span>
+                                                                                        <span data-action="selectDecade" class="decade" data-selection="2066">2060</span>
+                                                                                        <span data-action="selectDecade" class="decade" data-selection="2076">2070</span><span data-action="selectDecade" class="decade" data-selection="2086">2080</span>
+                                                                                        <span data-action="selectDecade" class="decade" data-selection="2096">2090</span>
+                                                                                        <span data-action="selectDecade" class="decade old" data-selection="2106">2100</span>
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </tbody>
+                                                                        </table>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <li class="picker-switch accordion-toggle"></li>
+                                                        </ul>
+                                                    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                </div>
+                                            </div>
+                                            <!-- /.card-body -->
+                                        </div>
+
+                                        <div class="col-sm-6  ">
+                                            <div class="  todo-body2 ">
+                                                <ul class="cont">
+                                                    <li class="body-items">
+                                                        <div class="date">
+                                                            13th October
+                                                        </div>
+                                                        <div class="body-para">
+                                                            <h3 class="heading">
+                                                                Make Dashboard Task
+                                                            </h3>
+                                                            <div class="row">
+                                                                <div class="col-9 ">
+                                                                    <p class="para">
+                                                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, suscipit!
+                                                                    </p>
+                                                                </div>
+                                                                <span class="col ml-2 mr-1">10:00 AM</span>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="body-items">
+                                                        <div class="date">
+                                                            13th October
+                                                        </div>
+                                                        <div class="body-para">
+                                                            <h3 class="heading">
+                                                                Make Dashboard Task
+                                                            </h3>
+                                                            <div class="row">
+                                                                <div class="col-9 ">
+                                                                    <p class="para">
+                                                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, suscipit!
+                                                                    </p>
+                                                                </div>
+                                                                <span class="col ml-2 mr-1">10:30 AM</span>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="body-items third">
+                                                        <div class="date">
+                                                            13th October
+                                                        </div>
+                                                        <div class="body-para">
+                                                            <h3 class="heading">
+                                                                Make Dashboard Task
+                                                            </h3>
+                                                            <div class="row">
+                                                                <div class="col-9 ">
+                                                                    <p class="para">
+                                                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, suscipit!
+                                                                    </p>
+                                                                </div>
+                                                                <span class="col ml-2 mr-1">10:30 AM</span>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- /.card-body -->
+                                <!-- /.card -->
+                            </div>
+                            <!-- right col -->
+                        </div>
+                    </div>
+                    <!-- 2nd row -->
+                    <div class="row mt-3 m-2">
+                        <!-- Left col -->
+                        <div class="col-sm-4 ">
+                            <!-- Custom tabs (Charts with tabs)-->
+
+                            <!-- Task Completion -->
+                            <div class="card okr direct-chat direct-chat-primary">
+                                <div class="card-header">
+                                    <h3 class="card-title">OKR</h3>
+                                </div>
+                                <!-- /.card-header -->
+                                <div class="card-body">
+                                    <div class="  mt-3 todo-body2 ">
+                                        <ul class="cont">
+                                            <li class="body-items energy">
+                                                <div class="date5 mb-2">
+                                                    24th World energy Congress
+                                                </div>
+                                            </li>
+                                            <li class="body-items mb-4">
+                                                <div class="date4">
+                                                    9 October 2020
+                                                </div>
+                                                <div class="body-para">
+                                                    <div class="row">
+                                                        <div class="col-9 ">
+                                                            <h3 class="heading">
+                                                                Make Dashboard Task
+                                                            </h3>
+
+                                                        </div>
+                                                        <span class="col ml-2 mr-1 mb-3 percent">50%</span>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="body-items mb-4">
+                                                <div class="date4">
+                                                    10 October 2020
+                                                </div>
+                                                <div class="body-para">
+                                                    <div class="row">
+                                                        <div class="col-9 ">
+                                                            <h3 class="heading">
+                                                                Make Presentation Task
+                                                            </h3>
+
+                                                        </div>
+                                                        <span class="col ml-2 mr-1 mb-3 percent">42%</span>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="body-items third mb-4">
+                                                <div class="date4">
+                                                    10 October 2020
+                                                </div>
+                                                <div class="body-para">
+                                                    <div class="row">
+                                                        <div class="col-9 ">
+                                                            <h3 class="heading">
+                                                                Project Planning Task
+                                                            </h3>
+                                                        </div>
+                                                        <span class="col ml-2 mr-1 mb-3 percent1">05%</span>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <!-- /.direct-chat-pane -->
+                                </div>
+                                <!-- /.card-body -->
+
+                            </div>
+                            <!--/.Task Cimpletion -->
+                        </div>
+                        <!-- /.Left col -->
+                        <!-- right col (We are only adding the ID to make the widgets sortable)-->
+                        <div class="col-sm-4  ">
+                            <div class="card okr direct-chat direct-chat-primary">
+                                <div class="card-header">
+                                    <h3 class="card-title">Attendence</h3>
+                                </div>
+                                <!-- /.card-header -->
+                                <div class="card-body">
+                                    <div class="  mt-3 todo-body2 ">
+                                        <ul class="cont">
+                                            <li class="body-items energy">
+                                                <div class="date6 mb-4 ">
+                                                    Sunday,
+                                                    <div>
+                                                        18 Octuber 2020
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="body-items mb-4 nobd">
+
+                                                <div class="body-para2">
+                                                    <ul class="listing">
+                                                        <li class="checkin mb-2">Check-In </li>
+                                                        <li class="timing">9:15 AM</li>
+                                                        <li class="timing">11:00 AM</li>
+                                                        <li class="timing">3:30 PM</li>
+                                                        <li class="timing">6:30 PM</li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li class="body-items mb-4 nobd">
+                                                <div class="body-para2 ml-5">
+                                                    <ul>
+                                                        <li class="checkin mb-2">Check-Out </li>
+                                                        <li class="timing">10:35 AM</li>
+                                                        <li class="timing">2:30 PM</li>
+                                                        <li class="timing">6:15 PM</li>
+                                                        <li class="timing">7:00 PM</li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                    <!-- /.direct-chat-pane -->
+                                </div>
+                                <!-- /.card-body -->
+
+                            </div>
+
+                            <!-- /.card -->
+                        </div>
+                        <!-- right col -->
+                        <div class="col-sm-4  ">
+
+                            <div class="card okr direct-chat direct-chat-primary">
+                                <div class="card-header">
+                                    <h3 class="card-title">Outlook</h3>
+                                </div>
+                                <!-- /.card-header -->
+                                <div class="card-body">
+                                    <div class="  mt-3 todo-body2 ">
+                                        <ul class="cont">
+                                            <li class="body-items energy">
+                                                <div class="date5 mb-2">
+                                                    Meetings Today
+                                                </div>
+                                            </li>
+                                            <li class="body-items mb-4">
+                                                <div class="date4">
+                                                    10:00 AM
+                                                </div>
+                                                <div class="body-para">
+
+                                                    <h3 class="heading mb-3">
+                                                        Meeting with Staff
+                                                    </h3>
+
+                                                </div>
+
+                                            </li>
+                                            <li class="body-items mb-4">
+                                                <div class="date4">
+                                                    12:30 PM
+                                                </div>
+                                                <div class="body-para">
+
+                                                    <h3 class="heading mb-3">
+                                                        Metting with Marketing
+                                                    </h3>
+                                                </div>
+                                            </li>
+                                            <li class="body-items third mb-4">
+                                                <div class="date4">
+                                                    2:00 PM
+                                                </div>
+                                                <div class="body-para">
+                                                    <h3 class="heading mb-3">
+                                                        Meeting with Staff
+                                                    </h3>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <!-- /.direct-chat-pane -->
+                                </div>
+                                <!-- /.card-body -->
+
+                            </div>
+                            <!-- /.card -->
+                        </div>
+                    </div>
+                    <!-- /.row (2nd row) -->
+
+                    <!-- 3rd row -->
+                    <div class="row mt-3 m-2">
+                        <div class="col-sm-4">
+                            <div class="card " style="background-color: #7faabf; height: 390px;">
+                                <div class="card-header">
+                                    <h3 class="card-title " style="color:white">
+                                        Quick Links
+                                    </h3>
+                                    <div class="card-tools">
+                                        <a href="#" class="view">
+                  View All
+                </a>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <div class="tab-content p-0">
+                                        <div class="slideshow-container">
+                                            <div class="row ml-1">
+                                                <a class="prev" onclick="changeicons()">&#10094;</a>
+                                                <div class="col upper-link">
+                                                    <div class="slider-icons">
+                                                        <ul id="ul1">
+
+                                                            <li class="icons-link m-3 ml-2">
+                                                                <i class="far fa-newspaper"></i>
+                                                                <a href="#" class="icon-name">
+                                              News
+                                            </a>
+                                                            </li>
+                                                            <li class="icons-link m-3">
+                                                                <i class="fas fa-poll"></i>
+                                                                <a href="#" class="icon-name">
+                                              Survey
+                                            </a>
+                                                            </li>
+                                                            <li class="icons-link m-3 ">
+                                                                <i class="fas fa-inbox"></i>
+                                                                <a href="#" class="icon-name">
+                                              Inbox
+                                            </a>
+                                                            </li>
+                                                        </ul>
+                                                        <ul id="ul2">
+
+                                                            <li class="icons-link m-3 ml-2">
+                                                                <i class="far fa-newspaper"></i>
+                                                                <a href="#" class="icon-name">
+                                              News
+                                            </a>
+                                                            </li>
+                                                            <li class="icons-link m-3">
+                                                                <i class="fas fa-poll"></i>
+                                                                <a href="#" class="icon-name">
+                                              Survey
+                                            </a>
+                                                            </li>
+                                                            <li class="icons-link m-3 ">
+                                                                <i class="fas fa-inbox"></i>
+                                                                <a href="#" class="icon-name">
+                                              Inbox
+                                            </a>
+                                                            </li>
+                                                        </ul>
+                                                        <ul id="ul3">
+
+                                                            <li class="icons-link m-3 ml-2">
+                                                                <i class="far fa-newspaper"></i>
+                                                                <a href="#" class="icon-name">
+                                              News
+                                            </a>
+                                                            </li>
+                                                            <li class="icons-link m-3">
+                                                                <i class="fas fa-poll"></i>
+                                                                <a href="#" class="icon-name">
+                                              Survey
+                                            </a>
+                                                            </li>
+                                                            <li class="icons-link m-3 ">
+                                                                <i class="fas fa-inbox"></i>
+                                                                <a href="#" class="icon-name">
+                                              Inbox
+                                            </a>
+                                                            </li>
+                                                        </ul>
+                                                        <ul id="ul4">
+
+                                                            <li class="icons-link m-3 ml-2">
+                                                                <i class="far fa-newspaper"></i>
+                                                                <a href="#" class="icon-name">
+                                              Work
+                                            </a>
+                                                            </li>
+                                                            <li class="icons-link m-3">
+                                                                <i class="fas fa-poll"></i>
+                                                                <a href="#" class="icon-name">
+                                              Goals
+                                            </a>
+                                                            </li>
+                                                            <li class="icons-link m-3 ">
+                                                                <i class="fas fa-inbox"></i>
+                                                                <a href="#" class="icon-name">
+                                              Meeting
+                                            </a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+
+                                            <a class="next" onclick="changeicons()">&#10095;</a>
+                                        </div>
+
+
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="col-sm-8 ">
+                            <div class="card card2" style="height: 390px;">
+
+
+                                <div class="card-header " style="border-bottom: 1px solid rgba(0,0,0,.125);">
+                                    <h3 class="card-title">
+                                        Latest News
+                                    </h3>
+                                    <div class="card-tools">
+                                        <a href="#" class="view2">
+                      View All
+                    </a>
+                                    </div>
+                                </div>
+                                <div class=" image-slide-body pt-4">
+
+                                    <a class="prev btn-picpre" onclick="plusSlides(-1)">&#10094;</a>
+                                    <a class="next btn-picpre" onclick="plusSlides(1)">&#10095;</a>
+
+                                    <div class="slideshow1-container">
+                                        <!-- Full-width images with number and caption text -->
+                                        <div class="mySlides fade">
+                                            <img src="/dist/abc/abc.jpg" class="image-slide">
+
+                                        </div>
+
+                                        <div class="mySlides fade">
+
+                                            <img src="/dist/abc/abc2.jpg" class="image-slide">
+
+                                        </div>
+
+
+
+
+
+                                        <!-- Next and previous buttons -->
+
+                                    </div>
+                                    <!-- <br>
+                        <div style="text-align:center">
+                            <span class="dot" onclick="currentSlide(1)"></span>
+                            <span class="dot" onclick="currentSlide(2)"></span>
+                            <span class="dot" onclick="currentSlide(3)"></span>
+                        </div> -->
+
+
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- /.row (3rd row) -->
+                    <div class="row mt-3 m-2">
+                        <!--documents-->
+                        <div class="col-sm-4 ">
+                            <!-- Custom tabs (Charts with tabs)-->
+
+                            <!-- Task Completion -->
+                            <div class="card card3" style="height: 360px;">
+                                <div class="card-header">
+                                    <h3 class="card-title">Documents</h3>
+                                    <div class="card-tools">
+                                        <a href="#" class="view4">
+                          View All
+                        </a>
+                                    </div>
+                                </div>
+                                <!-- /.card-header -->
+                                <div class="card-body scrollbar">
+                                    <div class="overflow">
+                                        <ul class="cont">
+                                            <li class="body-items documents mb-4">
+                                                <div class="row">
+                                                    <div class="col-1 ml-1 docx-img  mb-2 " style="background-color: rgb(221, 221, 251);">
+                                                        <img class="doc-img " src="/dist/img/img/w.jpg">
+                                                    </div>
+                                                    <div class="col-9 p-text ml-4 mt-2">
+                                                        <p>SharePoint_Brief.doc</p>
+                                                    </div>
+                                                    <div class="col-1 mt-2 doc-icon ">
+                                                        <a href="#"><i class="fas fa-download "></i></a>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="body-items mb-4 documents ">
+                                                <div class="row">
+                                                    <div class="col-1 ml-1 docx-img mb-2" style="background-color: rgb(209, 238, 196);">
+                                                        <img class="doc-img " src="/dist/img/img/x5.jpg">
+                                                    </div>
+                                                    <div class="col-9 p-text ml-4 mt-2">
+                                                        <p>Meeting_Slide.xlsx</p>
+                                                    </div>
+                                                    <div class="col-1 mt-2 doc-icon ">
+                                                        <a href="#"><i class="fas fa-download "></i></a>
+                                                    </div>
+                                                </div>
+                                            </li>
+
+                                            <li class="body-items mb-4 documents ">
+                                                <div class="row">
+                                                    <div class="col-1 ml-1 docx-img mb-2" style="background-color: rgb(251, 221, 221);">
+                                                        <img class="doc-img " src="/dist/img/img/p2.png">
+                                                    </div>
+                                                    <div class="col-9 p-text ml-4 mt-2">
+                                                        <p>Our_Location.pptx</p>
+                                                    </div>
+                                                    <div class="col-1 mt-2 doc-icon ">
+                                                        <a href="#"><i class="fas fa-download "></i></a>
+                                                    </div>
+                                                </div>
+                                            </li>
+
+                                            <li class="body-items mb-4 documents last-li ">
+                                                <div class=" row ">
+                                                    <div class="col-1 ml-1 docx-img mb-2 " style="background-color: rgb(221, 221, 251); ">
+                                                        <img class="doc-img " src="/dist/img/img/w.jpg ">
+                                                    </div>
+                                                    <div class="col-9 p-text ml-4 mt-2 ">
+                                                        <p>Sessions.doc</p>
+                                                    </div>
+                                                    <div class="col-1 mt-2 doc-icon  ">
+                                                        <a href="# "><i class="fas fa-download "></i></a>
+                                                    </div>
+                                                </div>
+
+                                            </li>
+
+
+                                        </ul>
+                                    </div>
+
+
+                                    <!-- /.direct-chat-pane -->
+
+                                    <!-- /.card-body -->
+
+                                </div>
+                                <!--/.Task Cimpletion -->
+                            </div>
+                        </div>
+                        <!--/document-->
+                        <div class="col-sm-4  ">
+                            <!-- Custom tabs (Charts with tabs)-->
+
+                            <!-- Task Completion -->
+                            <div class="card card3" style="height: 360px;">
+                                <div class="card-header ">
+                                    <h3 class="card-title ">Employee Offers</h3>
+                                    <div class="card-tools ">
+                                        <a href="# " class="view4 ">
+                          View All
+                        </a>
+                                    </div>
+                                </div>
+                                <!-- /.card-header -->
+                                <div class="card-body ">
+                                    <div class=" todo-body2 ">
+                                        <ul class="cont ">
+
+                                            <li class="body-items  ">
+                                                <div class="row ">
+                                                    <div class="col-2 img-text ">
+                                                        <p class="img-text1 "> Etisalat</p>
+                                                    </div>
+                                                    <div class="col-2 offset-8 img-text2 ">
+                                                        <a href="# " class="view7 ">Read More</a>
+                                                    </div>
+                                                </div>
+                                                <div class="row ">
+                                                    <div class="col employee-img ">
+                                                        <img class=" employee-images mb-3 " src="/dist/img/img/e1 (2).jpg ">
+                                                    </div>
+                                                </div>
+
+                                                <div class="row ">
+                                                    <div class="col employee-text mb-1">
+                                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, nesciunt.
+                                                    </div>
+                                                </div>
+                                            </li>
+
+                                            <li class="body-items mb-4 last  last-li">
+                                                <div class="row ">
+                                                    <div class="col-2 img-text ">
+                                                        <p class="img-text1 ">DU</p>
+                                                    </div>
+                                                    <div class="col-2 offset-8 img-text2 ">
+                                                        <a href="# " class="view7 ">Read More</a>
+                                                    </div>
+                                                </div>
+                                                <div class="row ">
+                                                    <div class="col employee-img ">
+                                                        <img class=" employee-images mb-3 " src="/dist/img/img/d1.jpg ">
+                                                    </div>
+                                                </div>
+
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <!-- /.direct-chat-pane -->
+                                </div>
+                                <!-- /.card-body -->
+
+                            </div>
+                            <!--/.Task Cimpletion -->
+                        </div>
+
+                        <div class="col-sm-4  ">
+                            <!-- Custom tabs (Charts with tabs)-->
+
+                            <!-- Task Completion -->
+                            <div class="card card3" style="height: 360px;">
+                                <div class="card-header ">
+                                    <h3 class="card-title ">Newly Joiners</h3>
+                                </div>
+                                <!-- /.card-header -->
+                                <div class="card-body">
+                                    <div class="tab-content p-0">
+                                        <div class="slideshow-containe3">
+                                            <div class="row">
+                                                <div class="col">
+                                                    <img src="/dist/img//img/avatar.png" alt="#" class="new-img">
+                                                    <div class="text-p">
+                                                        <h3 class="text-p2">Sarah Collin</h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="row mb-3">
+                                                <div class="col text-2">
+                                                    <p text-p3>Project Manager</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="row ">
+                                                <div class="col text-3">
+                                                    <p text-p4>View Profile</p>
+                                                </div>
+                                            </div>
+
+
+                                            <a class="prev" style="color:rgba(182, 182, 182, 0)">&#10094;</a>
+                                            <a class="next" style="color:rgba(197, 197, 197, 0)">&#10095;</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- /.card-body -->
+
+                            </div>
+                            <!--/.Task Cimpletion -->
+                        </div>
+
+
+
+                    </div>
+                    <!--/custom tab-->
+
+                    <div class="row row2 mt-3 m-2">
+                        <div class="col-md-8 col-sm-9 ">
+                            <div class="card events-card2 " style="height:425px">
+                                <div class="card-header  ">
+                                    <h3 class="card-title ">Photos and Video Gallery</h3>
+                                </div>
+                                <!-- /.card-header -->
+                                <div class="card-body">
+                                    <div class="row ">
+                                        <div class="col">
+                                            <div class="Photos-Videos">
+                                                <ul class="nav nav-tabs">
+                                                    <li class="nav-item">
+                                                        <a class="nav-link active" data-toggle="tab" href="#home">PHOTOS</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" data-toggle="tab" href="#gallery">GALLERY</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="container">
+
+                                                <div class="row ">
+                                                    <div class="col">
+                                                        <div class="tab-content">
+                                                            <div class="tab-pane fade show active" id="home">
+
+                                                                <div class="ptag-text">
+                                                                    <p class="nature-text">Nature Album
+                                                                        <p>
+                                                                </div>
+
+                                                                <div class="row ">
+                                                                    <div class="col-sm-6 ">
+                                                                        <div class="main-content ml-3 ">
+                                                                            <a href="/dist/img/photo1.png">
+                                                                                <img class="main-img" src="/dist/img/img/photo1.png">
+                                                                            </a>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-sm-2">
+                                                                        <!--Nested rows within a column-->
+                                                                        <div class="row ">
+                                                                            <div class="col-12">
+                                                                                <div class="sidebar-content ">
+                                                                                    <a href="/dist/img/img/photo2.png">
+                                                                                        <img class="sub-img" src="/dist/img/img/photo2.png">
+                                                                                    </a>
+                                                                                </div>
+                                                                            </div>
+
+                                                                        </div>
+                                                                        <div class="row mt-3 mr-1 marg">
+                                                                            <div class="col-12 ">
+                                                                                <div class="sidebar-content sub-img">
+
+                                                                                    <a href="/dist/img/img/photo4.png">
+                                                                                        <img class="sub-img" src="/dist/img/img/photo4.jpg">
+                                                                                    </a>
+                                                                                </div>
+                                                                            </div>
+
+                                                                        </div>
+
+                                                                    </div>
+
+                                                                    <div class="col-sm-2">
+                                                                        <!--Nested rows within a column-->
+                                                                        <div class="row ">
+                                                                            <div class="col-12">
+                                                                                <div class="sidebar-content ">
+                                                                                    <a href="/dist/img/img/s50.jpg">
+                                                                                        <img class="sub-img" src="/dist/img/img/s50.jpg">
+                                                                                    </a>
+                                                                                </div>
+                                                                            </div>
+
+                                                                        </div>
+                                                                        <div class="row mt-3 mr-1 marg">
+                                                                            <div class="col-12 ">
+                                                                                <div class="sidebar-content ">
+                                                                                    <a href="/dist/img/img/sea.jpg">
+                                                                                        <img class="sub-img" src="/dist/img/img/sea.jpg">
+                                                                                    </a>
+                                                                                </div>
+                                                                            </div>
+
+                                                                        </div>
+
+                                                                    </div>
+
+
+
+
+                                                                    <div class="col-sm-2">
+                                                                        <!--Nested rows within a column-->
+                                                                        <div class="row ">
+                                                                            <div class="col-12">
+                                                                                <div class="sidebar-content ">
+                                                                                    <a href="/dist/img/img/photo3.jpg">
+                                                                                        <img class="sub-img" src="/dist/img/img/photo3.jpg">
+                                                                                    </a>
+                                                                                </div>
+                                                                            </div>
+
+                                                                        </div>
+
+
+                                                                    </div>
+
+
+
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="tab-pane fade" id="gallery">
+
+                                                                <div class="ptag-text">
+                                                                    <p class="nature-text">Nature videos
+                                                                    </p>
+                                                                </div>
+
+
+                                                                <div class="row ">
+                                                                    <div class="col-sm-6 ">
+                                                                        <div class="main-content ml-3 ">
+                                                                            <iframe class="main-img1" src="https://www.youtube.com/embed/ivwX6bTpjJc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-sm-2">
+                                                                        <!--Nested rows within a column-->
+                                                                        <div class="row ">
+                                                                            <div class="col-12">
+                                                                                <div class="sidebar-content ">
+
+                                                                                    <iframe class="sub-img1" src="https://www.youtube.com/embed/yqLlgIaz1L0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                                                                </div>
+                                                                            </div>
+
+                                                                        </div>
+                                                                        <div class="row mt-3 mr-1">
+                                                                            <div class="col-12 ">
+
+                                                                                <div class="sidebar-content sub-img">
+                                                                                    <iframe class="sub-img1" src="https://www.youtube.com/embed/BXuyOPSDAYU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                                                                </div>
+                                                                            </div>
+
+                                                                        </div>
+
+                                                                    </div>
+
+                                                                    <div class="col-sm-2">
+                                                                        <!--Nested rows within a column-->
+                                                                        <div class="row ">
+                                                                            <div class="col-12">
+                                                                                <div class="sidebar-content ">
+                                                                                    <iframe class="sub-img1" src="https://www.youtube.com/embed/B_tTymvDWXk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                                                                </div>
+                                                                            </div>
+
+                                                                        </div>
+                                                                        <div class="row mt-3 mr-1">
+                                                                            <div class="col-12 ">
+                                                                                <div class="sidebar-content ">
+                                                                                    <iframe class="sub-img1" src="https://www.youtube.com/embed/mRsa2wb0aTs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                                                                </div>
+                                                                            </div>
+
+                                                                        </div>
+
+                                                                    </div>
+
+
+
+
+                                                                    <div class="col-sm-2">
+                                                                        <!--Nested rows within a column-->
+                                                                        <div class="row ">
+                                                                            <div class="col-12">
+                                                                                <div class="sidebar-content ">
+                                                                                    <iframe class="sub-img1" src="https://www.youtube.com/embed/zSZF3Qg0RKI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                                                                </div>
+                                                                            </div>
+
+                                                                        </div>
+
+
+                                                                    </div>
+
+
+
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <!-- /.card-body -->
+                            </div>
+                        </div>
+
+
+
+                        <div class="col-md-4 col-sm-3 ">
+                            <!-- Custom tabs (Charts with tabs)-->
+
+                            <!-- Task Completion -->
+                            <div class="card card3 " style="height:425px">
+                                <div class="card-header">
+                                    <h3 class="card-title">Staff Directory</h3>
+                                    <div class="card-tools">
+                                        <a href="#" class="view4">
+                          View All
+                        </a>
+                                    </div>
+                                </div>
+                                <!-- /.card-header -->
+                                <div class="card-body">
+                                    <div class="  mt-3 todo-body2 doc">
+                                        <ul class="cont">
+                                            <li class="body-items documents mb-4">
+                                                <div class="row">
+                                                    <div class="col-2 docx-img2  mb-2 ">
+                                                        <img class="doc-img2 " src="/dist/img/img/i1.png">
+                                                    </div>
+                                                    <div class="col-7 p-text  mt-2">
+                                                        <p class="emp-text ">Muhammad Hamdan</p>
+                                                        <span class="dept">
+                                                <p class="dept-text">Project Manager</p>
+                                            </span>
+                                                    </div>
+
+                                                </div>
+                                            </li>
+                                            <li class="body-items mb-4 documents ">
+                                                <div class="row">
+                                                    <div class="col-2 docx-img3 mb-2">
+                                                        <img class="doc-img3 " src="/dist/img/img/i2.png">
+                                                    </div>
+                                                    <div class="col-7 p-text  mt-2">
+                                                        <p class="emp-text ">Abdul Nour</p>
+                                                        <span class="dept">
+                                                <p class="dept-text">Project Manager</p>
+                                            </span>
+                                                    </div>
+
+                                                </div>
+                                            </li>
+
+                                            <li class="body-items mb-4 documents ">
+                                                <div class="row">
+                                                    <div class="col-2 docx-img2 mb-2">
+                                                        <img class="doc-img2 " src="/dist/img/img/i3.jpg">
+                                                    </div>
+                                                    <div class="col-7 p-text  mt-2">
+                                                        <p class="emp-text ">Ayesha Khan</p>
+                                                        <span class="dept">
+                                                <p class="dept-text">Project Manager</p>
+                                            </span>
+                                                    </div>
+
+                                                </div>
+                                            </li>
+
+                                            <li class="body-items mb-4 documents last-li ">
+                                                <div class=" row ">
+                                                    <div class="col-2 docx-img2 mb-2 ">
+                                                        <img class="doc-img2 " src="/dist/img/img/i4.png ">
+                                                    </div>
+                                                    <div class="col-7 p-text  mt-2 ">
+                                                        <p class="emp-text ">Aaliyah</p>
+                                                        <span class="dept">
+                                                <p class="dept-text">Project Manager</p>
+                                            </span>
+                                                    </div>
+
+                                                </div>
+
+                                            </li>
+
+
+                                        </ul>
+                                    </div>
+                                    <!-- /.direct-chat-pane -->
+                                </div>
+                                <!-- /.card-body -->
+
+                            </div>
+                            <!--/.Task Cimpletion -->
+                        </div>
+
+
+
+                    </div>
+
+
+
+
+
+                </div>
+                <!-- /.container-fluid -->
+            </div>
+            <!-- /.content -->
+        </div>
+        <!-- /.content-wrapper -->
+        <footer class="main-footer ">
+            <div class="container footer-sett">
+                <div class="row foot-row">
+                    <div class="col foot-col">
+                        <ul class="foot-ul">
+                            <li Class="foot-li" style="border-style: none;">Dashboard</li>
+                            <li Class="foot-li">Department</li>
+                            <li Class="foot-li">Policy & Procedures</li>
+                            <li Class="foot-li">Staff Directory</li>
+                            <li Class="foot-li">Document Library</li>
+                            <li Class="foot-li">Forum</li>
+                            <li Class="foot-li">FAQ'S</li>
+                            <li Class="foot-li">Site Map</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
+            <span class="foot-span">Copyright &copy; 2014-2019. All rights reserved by Department of Energy UAE.</span>
+            <div class="float-right d-none d-sm-inline-block foot-right">
+                <i class="fab fa-twitter-square foot-icon"></i>
+                <i class="fab fa-linkedin foot-icon"></i>
+                <i class="fab fa-facebook foot-icon"></i>
+                <i class="fab fa-youtube-square foot-icon"></i>
+            </div>
+        </footer>
+
+        <!-- Control Sidebar -->
+
+        <!-- /.control-sidebar -->
+    </div>
+    <!-- ./wrapper -->
+
+    <!-- jQuery -->
+    <script src="plugins/jquery/jquery.min.js "></script>
+    <!-- jQuery UI 1.11.4 -->
+    <script src="plugins/jquery-ui/jquery-ui.min.js "></script>
+    <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
+    <script>
+        $.widget.bridge('uibutton', $.ui.button)
+    </script>
+    <!-- Bootstrap 4 -->
+    <script src="plugins/bootstrap/js/bootstrap.bundle.min.js "></script>
+    <!-- ChartJS -->
+    <script src="plugins/chart.js/Chart.min.js "></script>
+    <!-- Sparkline -->
+    <script src="plugins/sparklines/sparkline.js "></script>
+    <!-- JQVMap -->
+    <script src="plugins/jqvmap/jquery.vmap.min.js "></script>
+    <script src="plugins/jqvmap/maps/jquery.vmap.usa.js "></script>
+    <!-- jQuery Knob Chart -->
+    <script src="plugins/jquery-knob/jquery.knob.min.js "></script>
+    <!-- daterangepicker -->
+    <script src="plugins/moment/moment.min.js "></script>
+    <script src="plugins/daterangepicker/daterangepicker.js "></script>
+    <!-- Tempusdominus Bootstrap 4 -->
+    <script src="plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js "></script>
+    <!-- Summernote -->
+    <script src="plugins/summernote/summernote-bs4.min.js "></script>
+    <!-- overlayScrollbars -->
+    <script src="plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js "></script>
+    <!-- AdminLTE App -->
+    <script src="dist/js/adminlte.js "></script>
+    <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
+    <script src="dist/js/pages/dashboard.js "></script>
+    <!-- AdminLTE for demo purposes -->
+    <script src="dist/js/demo.js "></script>
+    <script src="/dist/js/myscript.js "></script>
+    <script src="/dist/js/caleandar.js "></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+
+
+</body>
+
+</html>
